@@ -2,20 +2,20 @@
 using System.Windows.Forms;
 
 public class Roulette {
-    private System.Windows.Forms.Timer timer;
-    private Image image;
+    readonly int[] redNumbers = { 1, 3, 5, 7, 9, 12, 14, 16, 18, 19, 21, 23, 25, 27, 30, 32, 34, 36 };
+    readonly int[] blackNumbers = { 2, 4, 6, 8, 10, 11, 13, 15, 17, 20, 22, 24, 26, 28, 29, 31, 33, 35 };
+    readonly int[] firstDozen = { 1, 4, 7, 10, 13, 16, 19, 22, 25, 28, 31, 34 };
+    readonly int[] secondDozen = { 2, 5, 8, 11, 14, 17, 20, 23, 26, 29, 32, 35 };
+    readonly int[] thirdDozen = { 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36 };
+    readonly int timeToSpin = 250;
+
     private float angle = 0;
     private int ticks = 0;
-
     private int randomValue;
-
-    Control wheelPictureBox;
-
     private int bet = 100;
     private int money = 1000;
     private int total = 0;
 
-    private const int timeToSpin = 250;
 
     Label betLabel;
     Label moneyLabel;
@@ -26,39 +26,20 @@ public class Roulette {
     Button betUpButton;
     Button betDownButton;
     Button resetButton;
-
-    private enum BetType {
-        Zero, One, Two, Three, Four, Five, Six, Seven, Eight, Nine, Ten,
-        Eleven, Twelve, Thirteen, Fourteen, Fifteen, Sixteen, Seventeen, Eighteen, Nineteen, Twenty,
-        TwentyOne, TwentyTwo, TwentyThree, TwentyFour, TwentyFive, TwentySix, TwentySeven, TwentyEight, TwentyNine, Thirty,
-        ThirtyOne, ThirtyTwo, ThirtyThree, ThirtyFour, ThirtyFive, ThirtySix,
-        Red,
-        Black,
-        Even,
-        Odd,
-        FirstHalf,
-        SecondHalf,
-        FirstColumn,
-        SecondColumn,
-        ThirdColumn,
-        FirstDozen,
-        SecondDozen,
-        ThirdDozen,
-    }
+    PictureBox wheelPictureBox;
+    System.Windows.Forms.Timer timer;
+    Image image;
 
     List<BetType> bets = new List<BetType>();
 
     List<Button> actionButtons = new List<Button>();
     List<Button> numberButtons = new List<Button>();
-    int[] redNumbers = { 1, 3, 5, 7, 9, 12, 14, 16, 18, 19, 21, 23, 25, 27, 30, 32, 34, 36 };
-    int[] blackNumbers = { 2, 4, 6, 8, 10, 11, 13, 15, 17, 20, 22, 24, 26, 28, 29, 31, 33, 35 };
-    int[] firstDozen = { 1, 4, 7, 10, 13, 16, 19, 22, 25, 28, 31, 34 };
-    int[] secondDozen = { 2, 5, 8, 11, 14, 17, 20, 23, 26, 29, 32, 35 };
-    int[] thirdDozen = { 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36 };
 
     public Roulette(Control roulleteControl) {
         wheelPictureBox = roulleteControl.Controls.Find("WheelPictureBox", true).FirstOrDefault() as PictureBox;
         wheelPictureBox.Paint += Repaint;
+        wheelPictureBox.SizeMode = PictureBoxSizeMode.Zoom;
+        wheelPictureBox.BackgroundImageLayout = ImageLayout.Zoom;
 
         timer = new System.Windows.Forms.Timer();
         timer.Interval = 1;
@@ -256,7 +237,7 @@ public class Roulette {
     private void TimerTick(object sender, EventArgs e) {
         if (ticks != timeToSpin)
             ticks++;
-        angle += (timeToSpin + 25 - ticks) / 25;
+        angle += (timeToSpin + 25 - ticks) / 12;
         if (angle >= 360)
             angle = 0;
         wheelPictureBox.Invalidate();
@@ -461,4 +442,24 @@ public class Roulette {
             default: return BetType.Zero;
         }
     }
+
+    private enum BetType {
+        Zero, One, Two, Three, Four, Five, Six, Seven, Eight, Nine, Ten,
+        Eleven, Twelve, Thirteen, Fourteen, Fifteen, Sixteen, Seventeen, Eighteen, Nineteen, Twenty,
+        TwentyOne, TwentyTwo, TwentyThree, TwentyFour, TwentyFive, TwentySix, TwentySeven, TwentyEight, TwentyNine, Thirty,
+        ThirtyOne, ThirtyTwo, ThirtyThree, ThirtyFour, ThirtyFive, ThirtySix,
+        Red,
+        Black,
+        Even,
+        Odd,
+        FirstHalf,
+        SecondHalf,
+        FirstColumn,
+        SecondColumn,
+        ThirdColumn,
+        FirstDozen,
+        SecondDozen,
+        ThirdDozen,
+    }
+
 }

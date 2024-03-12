@@ -65,13 +65,13 @@ namespace Casino {
             form.ClientSize = new Size(newWidth, newHeight);
 
             foreach (Control label in labels)
-                label.Font = new Font(label.Font.FontFamily, Math.Max(this.ClientRectangle.Width / 80, MinWidth / 80), label.Font.Style);
+                label.Font = new Font(label.Font.FontFamily, Math.Max(this.ClientRectangle.Width / 100, MinWidth / 100), label.Font.Style);
 
             foreach (Control label in smallLabels)
-                label.Font = new Font(label.Font.FontFamily, Math.Max(this.ClientRectangle.Width / 110, MinWidth / 110), label.Font.Style);
+                label.Font = new Font(label.Font.FontFamily, Math.Max(this.ClientRectangle.Width / 140, MinWidth / 140), label.Font.Style);
 
             foreach (Control label in bigLabels)
-                label.Font = new Font(label.Font.FontFamily, Math.Max(this.ClientRectangle.Width / 50, MinWidth / 50), label.Font.Style);
+                label.Font = new Font(label.Font.FontFamily, Math.Max(this.ClientRectangle.Width / 80, MinWidth / 80), label.Font.Style);
         }
     }
 }

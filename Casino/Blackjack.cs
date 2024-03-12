@@ -8,10 +8,10 @@ using Microsoft.VisualBasic;
 using static Cards;
 
 public class Blackjack {
-	public const int startingMoney = 1000;
-	public const int startingBet = 50;
+	const int startingMoney = 1000;
+	const int startingBet = 50;
 
-	public class Player {
+	class Player {
 		public bool isPlaying { get; set; } = false;
 		public int money { get; set; } = startingMoney;
 		public int bet { get; set; } = startingBet;
@@ -36,7 +36,7 @@ public class Blackjack {
 	Button startButton = new Button();
 	Label houseLabel = new Label();
 	Label houseHandLabel = new Label();
-	List<Button> houseCards = new List<Button>();
+	List<PictureBox> houseCards = new List<PictureBox>();
 	Cards cards;
 
 	int currentPlayersTurn = 0;
@@ -59,10 +59,14 @@ public class Blackjack {
 		houseLabel = blackJackControl.Controls.Find("HouseLabelBig", true).FirstOrDefault() as Label;
 		houseHandLabel = blackJackControl.Controls.Find("HouseHandLabel", true).FirstOrDefault() as Label;
 
-		houseCards.Add(blackJackControl.Controls.Find("HouseCard1", true).FirstOrDefault() as Button);
-		houseCards.Add(blackJackControl.Controls.Find("HouseCard2", true).FirstOrDefault() as Button);
-		houseCards.Add(blackJackControl.Controls.Find("HouseCard3", true).FirstOrDefault() as Button);
-		houseCards.Add(blackJackControl.Controls.Find("HouseCard4", true).FirstOrDefault() as Button);
+		houseCards.Add(blackJackControl.Controls.Find("HouseCard1", true).FirstOrDefault() as PictureBox);
+		houseCards.Add(blackJackControl.Controls.Find("HouseCard2", true).FirstOrDefault() as PictureBox);
+		houseCards.Add(blackJackControl.Controls.Find("HouseCard3", true).FirstOrDefault() as PictureBox);
+		houseCards.Add(blackJackControl.Controls.Find("HouseCard4", true).FirstOrDefault() as PictureBox);
+        houseCards[0].SizeMode = PictureBoxSizeMode.Zoom;
+        houseCards[1].SizeMode = PictureBoxSizeMode.Zoom;
+        houseCards[2].SizeMode = PictureBoxSizeMode.Zoom;
+        houseCards[3].SizeMode = PictureBoxSizeMode.Zoom;
 
 		foreach (Control control in blackJackControl.Controls)
 			if (control.Name.Contains("player"))
@@ -549,7 +553,7 @@ public class Blackjack {
         }
 
         houseCards[0].Visible = true;
-		//houseCards[0].Image = GetImageFromString
+        houseCards[0].Image = (Image)Casino.Properties.Resources.back;
         AddHouseCard(1);
 
         for (int index = 0; index < players.Count; index++) {

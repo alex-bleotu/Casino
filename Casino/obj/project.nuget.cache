@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "yeOeLtRWzGwQ538P3ug1jqnZ28WJVOb8tQ4gnWIhG+kEnEUQegKorXhvyvIFjmrfLlbQx6Wv4UolXP7gJziPnA==",
+  "dgSpecHash": "e11cqxzBy9NJymJNaNzDmV+jM2LCu5NtoM8w6115//EF2lF75doXcLrtBikohCGanUFe5nnjL9aFKqmRIRniwA==",
   "success": true,
-  "projectFilePath": "D:\\Projects\\GitHub\\Casino\\Casino\\Casino.csproj",
+  "projectFilePath": "C:\\Users\\alexb\\Projects\\Casino\\Casino\\Casino.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\AlexDavid\\.nuget\\packages\\materialskin.2\\2.3.1\\materialskin.2.2.3.1.nupkg.sha512"
+    "C:\\Users\\alexb\\.nuget\\packages\\materialskin.2\\2.3.1\\materialskin.2.2.3.1.nupkg.sha512"
   ],
   "logs": []
 }
