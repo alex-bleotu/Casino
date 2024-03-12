@@ -11,7 +11,7 @@ namespace Casino.Theme {
             }
         }
 
-        public static Color primary = HexToColor("#2b3147");
+        public static Color primary = HexToColor("#424c70");
         public static Color primaryDark = HexToColor("#242738");
         public static Color primaryLight = HexToColor("#343c55");
         public static Color accent = HexToColor("#f46b67");

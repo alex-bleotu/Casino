@@ -6,9 +6,9 @@ using System.Runtime.InteropServices;
 
 namespace Casino {
     public partial class main : MaterialForm {
-        [DllImport("kernel32.dll", SetLastError = true)]
-        [return: MarshalAs(UnmanagedType.Bool)]
-        private static extern bool AllocConsole();
+        //[DllImport("kernel32.dll", SetLastError = true)]
+        //[return: MarshalAs(UnmanagedType.Bool)]
+        //private static extern bool AllocConsole();
 
         private const int MinWidth = 1280;
         private const double AspectRatio = 16.0 / 9.0;
@@ -18,7 +18,7 @@ namespace Casino {
         List<Control> bigLabels = new List<Control>();
 
         public main() {
-            AllocConsole();
+            //AllocConsole();
 
             InitializeComponent();
             var materialSkinManager = MaterialSkinManager.Instance;
@@ -51,7 +51,8 @@ namespace Casino {
 
             this.Resize += new EventHandler(formResize);
 
-            Blackjack blackjack = new Blackjack(tabControl.Controls[2].Controls[0]);
+            Blackjack blackjack = new Blackjack(tabControl.Controls[0].Controls[0]);
+            Roulette roullete = new Roulette(tabControl.Controls[1].Controls[0]);
         }
 
         private void formResize(object sender, EventArgs e) {
@@ -62,8 +63,6 @@ namespace Casino {
             int newHeight = (int)(newWidth / AspectRatio);
 
             form.ClientSize = new Size(newWidth, newHeight);
-
-            title.Font = new Font(title.Font.FontFamily, Math.Max(width / 35, MinWidth / 35), title.Font.Style);
 
             foreach (Control label in labels)
                 label.Font = new Font(label.Font.FontFamily, Math.Max(this.ClientRectangle.Width / 80, MinWidth / 80), label.Font.Style);

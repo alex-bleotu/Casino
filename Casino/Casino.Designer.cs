@@ -27,86 +27,132 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(main));
             MenuImages = new ImageList(components);
             tabControl = new MaterialSkin.Controls.MaterialTabControl();
-            Home = new TabPage();
-            homeTableLayout = new TableLayoutPanel();
-            title = new Label();
-            Roullete = new TabPage();
             Blackjack = new TabPage();
             blackjackTableLayout = new TableLayoutPanel();
             player2Panel = new Panel();
             player2Cards = new TableLayoutPanel();
-            player2Card4 = new MaterialSkin.Controls.MaterialButton();
-            player2Card3 = new MaterialSkin.Controls.MaterialButton();
-            player2Card2 = new MaterialSkin.Controls.MaterialButton();
-            player2Card1 = new MaterialSkin.Controls.MaterialButton();
             player2MoneyLabelSmall = new Label();
             player2BetLabelSmall = new Label();
+            player2Label = new Label();
+            player2HandLabel = new Label();
             player2ButtonTable = new TableLayoutPanel();
             player2StandButton = new MaterialSkin.Controls.MaterialButton();
             player2HitButton = new MaterialSkin.Controls.MaterialButton();
             player2DoubleButton = new MaterialSkin.Controls.MaterialButton();
             player2LeaveButton = new MaterialSkin.Controls.MaterialButton();
-            player2Label = new Label();
             player2JoinButton = new MaterialSkin.Controls.MaterialButton();
             dealersPanel = new Panel();
             tableLayoutPanel8 = new TableLayoutPanel();
-            houseCard4 = new MaterialSkin.Controls.MaterialButton();
-            houseCard3 = new MaterialSkin.Controls.MaterialButton();
-            houseCard2 = new MaterialSkin.Controls.MaterialButton();
-            houseCard1 = new MaterialSkin.Controls.MaterialButton();
             houseLabelBig = new Label();
+            houseHandLabel = new Label();
             player1Panel = new Panel();
             player1Cards = new TableLayoutPanel();
-            player1Card4 = new MaterialSkin.Controls.MaterialButton();
-            player1Card3 = new MaterialSkin.Controls.MaterialButton();
-            player1Card2 = new MaterialSkin.Controls.MaterialButton();
-            player1Card1 = new MaterialSkin.Controls.MaterialButton();
             player1MoneyLabelSmall = new Label();
             player1BetLabelSmall = new Label();
+            player1Label = new Label();
+            player1HandLabel = new Label();
+            player1Card1 = new Button();
             player1ButtonTable = new TableLayoutPanel();
             player1StandButton = new MaterialSkin.Controls.MaterialButton();
             player1HitButton = new MaterialSkin.Controls.MaterialButton();
             player1DoubleButton = new MaterialSkin.Controls.MaterialButton();
             player1LeaveButton = new MaterialSkin.Controls.MaterialButton();
-            player1Label = new Label();
             player1JoinButton = new MaterialSkin.Controls.MaterialButton();
             player3Panel = new Panel();
             player3Cards = new TableLayoutPanel();
-            player3Card4 = new MaterialSkin.Controls.MaterialButton();
-            player3Card3 = new MaterialSkin.Controls.MaterialButton();
-            player3Card2 = new MaterialSkin.Controls.MaterialButton();
-            player3Card1 = new MaterialSkin.Controls.MaterialButton();
             player3MoneyLabelSmall = new Label();
             player3BetLabelSmall = new Label();
+            player3Label = new Label();
+            player3HandLabel = new Label();
             player3ButtonTable = new TableLayoutPanel();
             player3StandButton = new MaterialSkin.Controls.MaterialButton();
             player3HitButton = new MaterialSkin.Controls.MaterialButton();
             player3DoubleButton = new MaterialSkin.Controls.MaterialButton();
             player3LeaveButton = new MaterialSkin.Controls.MaterialButton();
-            player3Label = new Label();
             player3JoinButton = new MaterialSkin.Controls.MaterialButton();
             player4Panel = new Panel();
             player4Cards = new TableLayoutPanel();
-            player4Card4 = new MaterialSkin.Controls.MaterialButton();
-            player4Card3 = new MaterialSkin.Controls.MaterialButton();
-            player4Card2 = new MaterialSkin.Controls.MaterialButton();
-            player4Card1 = new MaterialSkin.Controls.MaterialButton();
             player4MoneyLabelSmall = new Label();
             player4BetLabelSmall = new Label();
+            player4Label = new Label();
+            player4HandLabel = new Label();
             player4ButtonTable = new TableLayoutPanel();
             player4StandButton = new MaterialSkin.Controls.MaterialButton();
             player4HitButton = new MaterialSkin.Controls.MaterialButton();
             player4DoubleButton = new MaterialSkin.Controls.MaterialButton();
             player4LeaveButton = new MaterialSkin.Controls.MaterialButton();
-            player4Label = new Label();
             player4JoinButton = new MaterialSkin.Controls.MaterialButton();
             cardsPanel = new Panel();
             actionPanel = new Panel();
             tableLayoutPanel1 = new TableLayoutPanel();
             startButton = new MaterialSkin.Controls.MaterialButton();
+            Roulette = new TabPage();
+            roulleteTableLayout = new TableLayoutPanel();
+            boardTableLayout = new TableLayoutPanel();
+            secondButton = new Button();
+            oddButton = new Button();
+            blackButton = new Button();
+            redButton = new Button();
+            evenButton = new Button();
+            row1Button = new Button();
+            button34 = new Button();
+            button31 = new Button();
+            button28 = new Button();
+            button25 = new Button();
+            button22 = new Button();
+            button19 = new Button();
+            button16 = new Button();
+            button13 = new Button();
+            button10 = new Button();
+            button7 = new Button();
+            button4 = new Button();
+            button1 = new Button();
+            row2Button = new Button();
+            button35 = new Button();
+            button32 = new Button();
+            button29 = new Button();
+            button26 = new Button();
+            button23 = new Button();
+            button20 = new Button();
+            button17 = new Button();
+            button14 = new Button();
+            button11 = new Button();
+            button8 = new Button();
+            button5 = new Button();
+            button2 = new Button();
+            row3Button = new Button();
+            button36 = new Button();
+            button33 = new Button();
+            button30 = new Button();
+            button27 = new Button();
+            button24 = new Button();
+            button21 = new Button();
+            button18 = new Button();
+            button15 = new Button();
+            button12 = new Button();
+            button9 = new Button();
+            button6 = new Button();
+            col3Button = new Button();
+            col2Button = new Button();
+            col1Button = new Button();
+            button0 = new Button();
+            button3 = new Button();
+            firstButton = new Button();
+            tableLayoutPanel2 = new TableLayoutPanel();
+            totalLabel = new Label();
+            betLabel = new Label();
+            moneyLabel = new Label();
+            lablesTableLayout = new TableLayoutPanel();
+            wheelLabel = new Label();
+            messageLabel = new Label();
+            buttonsTableLayout = new TableLayoutPanel();
+            resetButton = new MaterialSkin.Controls.MaterialButton();
+            betDownButton = new MaterialSkin.Controls.MaterialButton();
+            spinButton = new MaterialSkin.Controls.MaterialButton();
+            betUpButton = new MaterialSkin.Controls.MaterialButton();
+            wheelTableLayout = new TableLayoutPanel();
+            wheelPictureBox = new PictureBox();
             Machines = new TabPage();
-            Shop = new TabPage();
-            Settings = new TabPage();
             tableLayoutPanel4 = new TableLayoutPanel();
             materialButton10 = new MaterialSkin.Controls.MaterialButton();
             materialButton11 = new MaterialSkin.Controls.MaterialButton();
@@ -116,9 +162,26 @@
             tableLayoutPanel6 = new TableLayoutPanel();
             materialButton17 = new MaterialSkin.Controls.MaterialButton();
             materialButton18 = new MaterialSkin.Controls.MaterialButton();
+            player1Card2 = new Button();
+            player1Card3 = new Button();
+            player1Card4 = new Button();
+            player2Card3 = new Button();
+            player2Card1 = new Button();
+            player2Card2 = new Button();
+            player2Card4 = new Button();
+            player3Card3 = new Button();
+            player3Card1 = new Button();
+            player3Card2 = new Button();
+            player3Card4 = new Button();
+            player4Card1 = new Button();
+            player4Card2 = new Button();
+            player4Card3 = new Button();
+            player4Card4 = new Button();
+            houseCard1 = new Button();
+            houseCard3 = new Button();
+            houseCard2 = new Button();
+            houseCard4 = new Button();
             tabControl.SuspendLayout();
-            Home.SuspendLayout();
-            homeTableLayout.SuspendLayout();
             Blackjack.SuspendLayout();
             blackjackTableLayout.SuspendLayout();
             player2Panel.SuspendLayout();
@@ -137,6 +200,14 @@
             player4ButtonTable.SuspendLayout();
             actionPanel.SuspendLayout();
             tableLayoutPanel1.SuspendLayout();
+            Roulette.SuspendLayout();
+            roulleteTableLayout.SuspendLayout();
+            boardTableLayout.SuspendLayout();
+            tableLayoutPanel2.SuspendLayout();
+            lablesTableLayout.SuspendLayout();
+            buttonsTableLayout.SuspendLayout();
+            wheelTableLayout.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)wheelPictureBox).BeginInit();
             tableLayoutPanel4.SuspendLayout();
             tableLayoutPanel5.SuspendLayout();
             tableLayoutPanel6.SuspendLayout();
@@ -157,12 +228,9 @@
             // 
             // tabControl
             // 
-            tabControl.Controls.Add(Home);
-            tabControl.Controls.Add(Roullete);
             tabControl.Controls.Add(Blackjack);
+            tabControl.Controls.Add(Roulette);
             tabControl.Controls.Add(Machines);
-            tabControl.Controls.Add(Shop);
-            tabControl.Controls.Add(Settings);
             tabControl.Depth = 0;
             tabControl.Dock = DockStyle.Fill;
             tabControl.ImageList = MenuImages;
@@ -173,58 +241,6 @@
             tabControl.SelectedIndex = 0;
             tabControl.Size = new Size(1274, 653);
             tabControl.TabIndex = 0;
-            // 
-            // Home
-            // 
-            Home.BackColor = SystemColors.Window;
-            Home.Controls.Add(homeTableLayout);
-            Home.ImageKey = "home.png";
-            Home.Location = new Point(4, 39);
-            Home.Name = "Home";
-            Home.Padding = new Padding(3);
-            Home.Size = new Size(1266, 610);
-            Home.TabIndex = 0;
-            Home.Text = "Home";
-            // 
-            // homeTableLayout
-            // 
-            homeTableLayout.ColumnCount = 2;
-            homeTableLayout.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 36.53846F));
-            homeTableLayout.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 63.46154F));
-            homeTableLayout.Controls.Add(title, 0, 0);
-            homeTableLayout.Dock = DockStyle.Fill;
-            homeTableLayout.Location = new Point(3, 3);
-            homeTableLayout.Name = "homeTableLayout";
-            homeTableLayout.RowCount = 3;
-            homeTableLayout.RowStyles.Add(new RowStyle(SizeType.Percent, 20.9580841F));
-            homeTableLayout.RowStyles.Add(new RowStyle(SizeType.Percent, 79.0419159F));
-            homeTableLayout.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
-            homeTableLayout.Size = new Size(1260, 604);
-            homeTableLayout.TabIndex = 0;
-            // 
-            // title
-            // 
-            title.AutoSize = true;
-            title.Dock = DockStyle.Fill;
-            title.Font = new Font("Consolas", 24F, FontStyle.Bold, GraphicsUnit.Point);
-            title.ForeColor = SystemColors.ControlText;
-            title.Location = new Point(3, 0);
-            title.Name = "title";
-            title.Size = new Size(454, 122);
-            title.TabIndex = 0;
-            title.Text = "The Oasis";
-            title.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // Roullete
-            // 
-            Roullete.ImageKey = "roullete.png";
-            Roullete.Location = new Point(4, 39);
-            Roullete.Name = "Roullete";
-            Roullete.Padding = new Padding(3);
-            Roullete.Size = new Size(1266, 610);
-            Roullete.TabIndex = 1;
-            Roullete.Text = "Roullete";
-            Roullete.UseVisualStyleBackColor = true;
             // 
             // Blackjack
             // 
@@ -258,8 +274,8 @@
             blackjackTableLayout.Name = "blackjackTableLayout";
             blackjackTableLayout.RowCount = 4;
             blackjackTableLayout.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
-            blackjackTableLayout.RowStyles.Add(new RowStyle(SizeType.Percent, 45F));
-            blackjackTableLayout.RowStyles.Add(new RowStyle(SizeType.Percent, 55F));
+            blackjackTableLayout.RowStyles.Add(new RowStyle(SizeType.Percent, 40F));
+            blackjackTableLayout.RowStyles.Add(new RowStyle(SizeType.Percent, 60F));
             blackjackTableLayout.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
             blackjackTableLayout.Size = new Size(1266, 610);
             blackjackTableLayout.TabIndex = 0;
@@ -268,135 +284,50 @@
             // 
             player2Panel.Controls.Add(player2Cards);
             player2Panel.Controls.Add(player2ButtonTable);
-            player2Panel.Controls.Add(player2Label);
             player2Panel.Controls.Add(player2JoinButton);
             player2Panel.Dock = DockStyle.Fill;
-            player2Panel.Location = new Point(329, 279);
+            player2Panel.Location = new Point(329, 251);
             player2Panel.Name = "player2Panel";
-            player2Panel.Size = new Size(300, 307);
+            player2Panel.Size = new Size(300, 336);
             player2Panel.TabIndex = 2;
             // 
             // player2Cards
             // 
             player2Cards.ColumnCount = 4;
-            player2Cards.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 10F));
+            player2Cards.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 5F));
             player2Cards.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 40F));
             player2Cards.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 40F));
-            player2Cards.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 10F));
-            player2Cards.Controls.Add(player2Card4, 2, 3);
-            player2Cards.Controls.Add(player2Card3, 1, 3);
-            player2Cards.Controls.Add(player2Card2, 2, 2);
-            player2Cards.Controls.Add(player2Card1, 1, 2);
-            player2Cards.Controls.Add(player2MoneyLabelSmall, 1, 1);
-            player2Cards.Controls.Add(player2BetLabelSmall, 2, 1);
+            player2Cards.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 15F));
+            player2Cards.Controls.Add(player2Card3, 1, 5);
+            player2Cards.Controls.Add(player2MoneyLabelSmall, 1, 2);
+            player2Cards.Controls.Add(player2BetLabelSmall, 2, 2);
+            player2Cards.Controls.Add(player2Label, 0, 0);
+            player2Cards.Controls.Add(player2HandLabel, 3, 0);
+            player2Cards.Controls.Add(player2Card1, 1, 4);
+            player2Cards.Controls.Add(player2Card2, 2, 4);
+            player2Cards.Controls.Add(player2Card4, 2, 5);
             player2Cards.Dock = DockStyle.Fill;
-            player2Cards.Location = new Point(0, 21);
+            player2Cards.Location = new Point(0, 0);
             player2Cards.Name = "player2Cards";
-            player2Cards.RowCount = 5;
-            player2Cards.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
-            player2Cards.RowStyles.Add(new RowStyle(SizeType.Percent, 15F));
+            player2Cards.RowCount = 7;
+            player2Cards.RowStyles.Add(new RowStyle(SizeType.Percent, 10F));
+            player2Cards.RowStyles.Add(new RowStyle(SizeType.Absolute, 10F));
+            player2Cards.RowStyles.Add(new RowStyle(SizeType.Percent, 10F));
+            player2Cards.RowStyles.Add(new RowStyle(SizeType.Absolute, 10F));
             player2Cards.RowStyles.Add(new RowStyle(SizeType.Percent, 40F));
             player2Cards.RowStyles.Add(new RowStyle(SizeType.Percent, 40F));
-            player2Cards.RowStyles.Add(new RowStyle(SizeType.Percent, 5F));
-            player2Cards.Size = new Size(300, 204);
+            player2Cards.RowStyles.Add(new RowStyle(SizeType.Absolute, 10F));
+            player2Cards.Size = new Size(300, 254);
             player2Cards.TabIndex = 4;
-            // 
-            // player2Card4
-            // 
-            player2Card4.AutoSizeMode = AutoSizeMode.GrowAndShrink;
-            player2Card4.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
-            player2Card4.Depth = 0;
-            player2Card4.Dock = DockStyle.Fill;
-            player2Card4.Enabled = false;
-            player2Card4.HighEmphasis = true;
-            player2Card4.Icon = null;
-            player2Card4.Location = new Point(154, 126);
-            player2Card4.Margin = new Padding(4, 6, 4, 6);
-            player2Card4.MouseState = MaterialSkin.MouseState.HOVER;
-            player2Card4.Name = "player2Card4";
-            player2Card4.NoAccentTextColor = Color.Empty;
-            player2Card4.Size = new Size(112, 61);
-            player2Card4.TabIndex = 10;
-            player2Card4.Text = "A";
-            player2Card4.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
-            player2Card4.UseAccentColor = false;
-            player2Card4.UseVisualStyleBackColor = true;
-            player2Card4.Visible = false;
-            // 
-            // player2Card3
-            // 
-            player2Card3.AutoSizeMode = AutoSizeMode.GrowAndShrink;
-            player2Card3.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
-            player2Card3.Depth = 0;
-            player2Card3.Dock = DockStyle.Fill;
-            player2Card3.Enabled = false;
-            player2Card3.HighEmphasis = true;
-            player2Card3.Icon = null;
-            player2Card3.Location = new Point(34, 126);
-            player2Card3.Margin = new Padding(4, 6, 4, 6);
-            player2Card3.MouseState = MaterialSkin.MouseState.HOVER;
-            player2Card3.Name = "player2Card3";
-            player2Card3.NoAccentTextColor = Color.Empty;
-            player2Card3.Size = new Size(112, 61);
-            player2Card3.TabIndex = 9;
-            player2Card3.Text = "A";
-            player2Card3.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
-            player2Card3.UseAccentColor = false;
-            player2Card3.UseVisualStyleBackColor = true;
-            player2Card3.Visible = false;
-            // 
-            // player2Card2
-            // 
-            player2Card2.AutoSizeMode = AutoSizeMode.GrowAndShrink;
-            player2Card2.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
-            player2Card2.Depth = 0;
-            player2Card2.Dock = DockStyle.Fill;
-            player2Card2.Enabled = false;
-            player2Card2.HighEmphasis = true;
-            player2Card2.Icon = null;
-            player2Card2.Location = new Point(154, 53);
-            player2Card2.Margin = new Padding(4, 6, 4, 6);
-            player2Card2.MouseState = MaterialSkin.MouseState.HOVER;
-            player2Card2.Name = "player2Card2";
-            player2Card2.NoAccentTextColor = Color.Empty;
-            player2Card2.Size = new Size(112, 61);
-            player2Card2.TabIndex = 6;
-            player2Card2.Text = "A";
-            player2Card2.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
-            player2Card2.UseAccentColor = false;
-            player2Card2.UseVisualStyleBackColor = true;
-            player2Card2.Visible = false;
-            // 
-            // player2Card1
-            // 
-            player2Card1.AutoSizeMode = AutoSizeMode.GrowAndShrink;
-            player2Card1.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
-            player2Card1.Depth = 0;
-            player2Card1.Dock = DockStyle.Fill;
-            player2Card1.Enabled = false;
-            player2Card1.HighEmphasis = true;
-            player2Card1.Icon = null;
-            player2Card1.Location = new Point(34, 53);
-            player2Card1.Margin = new Padding(4, 6, 4, 6);
-            player2Card1.MouseState = MaterialSkin.MouseState.HOVER;
-            player2Card1.Name = "player2Card1";
-            player2Card1.NoAccentTextColor = Color.Empty;
-            player2Card1.Size = new Size(112, 61);
-            player2Card1.TabIndex = 0;
-            player2Card1.Text = "A";
-            player2Card1.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
-            player2Card1.UseAccentColor = false;
-            player2Card1.UseVisualStyleBackColor = true;
-            player2Card1.Visible = false;
             // 
             // player2MoneyLabelSmall
             // 
             player2MoneyLabelSmall.AutoSize = true;
             player2MoneyLabelSmall.Dock = DockStyle.Fill;
             player2MoneyLabelSmall.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            player2MoneyLabelSmall.Location = new Point(33, 20);
+            player2MoneyLabelSmall.Location = new Point(18, 32);
             player2MoneyLabelSmall.Name = "player2MoneyLabelSmall";
-            player2MoneyLabelSmall.Size = new Size(114, 27);
+            player2MoneyLabelSmall.Size = new Size(114, 22);
             player2MoneyLabelSmall.TabIndex = 11;
             // 
             // player2BetLabelSmall
@@ -404,10 +335,32 @@
             player2BetLabelSmall.AutoSize = true;
             player2BetLabelSmall.Dock = DockStyle.Fill;
             player2BetLabelSmall.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            player2BetLabelSmall.Location = new Point(153, 20);
+            player2BetLabelSmall.Location = new Point(138, 32);
             player2BetLabelSmall.Name = "player2BetLabelSmall";
-            player2BetLabelSmall.Size = new Size(114, 27);
+            player2BetLabelSmall.Size = new Size(114, 22);
             player2BetLabelSmall.TabIndex = 12;
+            // 
+            // player2Label
+            // 
+            player2Label.AutoSize = true;
+            player2Cards.SetColumnSpan(player2Label, 3);
+            player2Label.Dock = DockStyle.Fill;
+            player2Label.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            player2Label.Location = new Point(3, 0);
+            player2Label.Name = "player2Label";
+            player2Label.Size = new Size(249, 22);
+            player2Label.TabIndex = 13;
+            player2Label.Text = "Player 2";
+            // 
+            // player2HandLabel
+            // 
+            player2HandLabel.AutoSize = true;
+            player2HandLabel.Dock = DockStyle.Fill;
+            player2HandLabel.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            player2HandLabel.Location = new Point(258, 0);
+            player2HandLabel.Name = "player2HandLabel";
+            player2HandLabel.Size = new Size(39, 22);
+            player2HandLabel.TabIndex = 14;
             // 
             // player2ButtonTable
             // 
@@ -421,7 +374,7 @@
             player2ButtonTable.Controls.Add(player2DoubleButton, 2, 0);
             player2ButtonTable.Controls.Add(player2LeaveButton, 3, 0);
             player2ButtonTable.Dock = DockStyle.Bottom;
-            player2ButtonTable.Location = new Point(0, 225);
+            player2ButtonTable.Location = new Point(0, 254);
             player2ButtonTable.Name = "player2ButtonTable";
             player2ButtonTable.RowCount = 1;
             player2ButtonTable.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
@@ -507,17 +460,6 @@
             player2LeaveButton.UseAccentColor = false;
             player2LeaveButton.UseVisualStyleBackColor = true;
             // 
-            // player2Label
-            // 
-            player2Label.AutoSize = true;
-            player2Label.Dock = DockStyle.Top;
-            player2Label.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            player2Label.Location = new Point(0, 0);
-            player2Label.Name = "player2Label";
-            player2Label.Size = new Size(66, 21);
-            player2Label.TabIndex = 2;
-            player2Label.Text = "Player 2";
-            // 
             // player2JoinButton
             // 
             player2JoinButton.AutoSizeMode = AutoSizeMode.GrowAndShrink;
@@ -526,7 +468,7 @@
             player2JoinButton.Dock = DockStyle.Bottom;
             player2JoinButton.HighEmphasis = true;
             player2JoinButton.Icon = null;
-            player2JoinButton.Location = new Point(0, 271);
+            player2JoinButton.Location = new Point(0, 300);
             player2JoinButton.Margin = new Padding(4, 6, 4, 6);
             player2JoinButton.MouseState = MaterialSkin.MouseState.HOVER;
             player2JoinButton.Name = "player2JoinButton";
@@ -542,277 +484,153 @@
             // 
             blackjackTableLayout.SetColumnSpan(dealersPanel, 2);
             dealersPanel.Controls.Add(tableLayoutPanel8);
-            dealersPanel.Controls.Add(houseLabelBig);
             dealersPanel.Dock = DockStyle.Fill;
             dealersPanel.Location = new Point(329, 23);
             dealersPanel.Name = "dealersPanel";
-            dealersPanel.Size = new Size(606, 250);
+            dealersPanel.Size = new Size(606, 222);
             dealersPanel.TabIndex = 0;
             // 
             // tableLayoutPanel8
             // 
             tableLayoutPanel8.ColumnCount = 4;
-            tableLayoutPanel8.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 10F));
-            tableLayoutPanel8.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 40F));
-            tableLayoutPanel8.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 40F));
-            tableLayoutPanel8.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 10F));
-            tableLayoutPanel8.Controls.Add(houseCard4, 2, 2);
-            tableLayoutPanel8.Controls.Add(houseCard3, 1, 2);
-            tableLayoutPanel8.Controls.Add(houseCard2, 2, 1);
-            tableLayoutPanel8.Controls.Add(houseCard1, 1, 1);
+            tableLayoutPanel8.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 25F));
+            tableLayoutPanel8.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 25F));
+            tableLayoutPanel8.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 25F));
+            tableLayoutPanel8.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 25F));
+            tableLayoutPanel8.Controls.Add(houseLabelBig, 0, 0);
+            tableLayoutPanel8.Controls.Add(houseHandLabel, 3, 0);
+            tableLayoutPanel8.Controls.Add(houseCard1, 0, 2);
+            tableLayoutPanel8.Controls.Add(houseCard2, 1, 2);
+            tableLayoutPanel8.Controls.Add(houseCard3, 2, 2);
+            tableLayoutPanel8.Controls.Add(houseCard4, 3, 2);
             tableLayoutPanel8.Dock = DockStyle.Fill;
-            tableLayoutPanel8.Location = new Point(0, 25);
+            tableLayoutPanel8.Location = new Point(0, 0);
             tableLayoutPanel8.Name = "tableLayoutPanel8";
             tableLayoutPanel8.RowCount = 4;
-            tableLayoutPanel8.RowStyles.Add(new RowStyle(SizeType.Percent, 10F));
-            tableLayoutPanel8.RowStyles.Add(new RowStyle(SizeType.Percent, 40F));
-            tableLayoutPanel8.RowStyles.Add(new RowStyle(SizeType.Percent, 40F));
-            tableLayoutPanel8.RowStyles.Add(new RowStyle(SizeType.Percent, 10F));
-            tableLayoutPanel8.Size = new Size(606, 225);
+            tableLayoutPanel8.RowStyles.Add(new RowStyle(SizeType.Percent, 20F));
+            tableLayoutPanel8.RowStyles.Add(new RowStyle(SizeType.Absolute, 10F));
+            tableLayoutPanel8.RowStyles.Add(new RowStyle(SizeType.Percent, 80F));
+            tableLayoutPanel8.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
+            tableLayoutPanel8.Size = new Size(606, 222);
             tableLayoutPanel8.TabIndex = 5;
-            // 
-            // houseCard4
-            // 
-            houseCard4.AutoSizeMode = AutoSizeMode.GrowAndShrink;
-            houseCard4.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
-            houseCard4.Depth = 0;
-            houseCard4.Dock = DockStyle.Fill;
-            houseCard4.Enabled = false;
-            houseCard4.HighEmphasis = true;
-            houseCard4.Icon = null;
-            houseCard4.Location = new Point(306, 118);
-            houseCard4.Margin = new Padding(4, 6, 4, 6);
-            houseCard4.MouseState = MaterialSkin.MouseState.HOVER;
-            houseCard4.Name = "houseCard4";
-            houseCard4.NoAccentTextColor = Color.Empty;
-            houseCard4.Size = new Size(234, 78);
-            houseCard4.TabIndex = 10;
-            houseCard4.Text = "A";
-            houseCard4.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
-            houseCard4.UseAccentColor = false;
-            houseCard4.UseVisualStyleBackColor = true;
-            houseCard4.Visible = false;
-            // 
-            // houseCard3
-            // 
-            houseCard3.AutoSizeMode = AutoSizeMode.GrowAndShrink;
-            houseCard3.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
-            houseCard3.Depth = 0;
-            houseCard3.Dock = DockStyle.Fill;
-            houseCard3.Enabled = false;
-            houseCard3.HighEmphasis = true;
-            houseCard3.Icon = null;
-            houseCard3.Location = new Point(64, 118);
-            houseCard3.Margin = new Padding(4, 6, 4, 6);
-            houseCard3.MouseState = MaterialSkin.MouseState.HOVER;
-            houseCard3.Name = "houseCard3";
-            houseCard3.NoAccentTextColor = Color.Empty;
-            houseCard3.Size = new Size(234, 78);
-            houseCard3.TabIndex = 9;
-            houseCard3.Text = "A";
-            houseCard3.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
-            houseCard3.UseAccentColor = false;
-            houseCard3.UseVisualStyleBackColor = true;
-            houseCard3.Visible = false;
-            // 
-            // houseCard2
-            // 
-            houseCard2.AutoSizeMode = AutoSizeMode.GrowAndShrink;
-            houseCard2.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
-            houseCard2.Depth = 0;
-            houseCard2.Dock = DockStyle.Fill;
-            houseCard2.Enabled = false;
-            houseCard2.HighEmphasis = true;
-            houseCard2.Icon = null;
-            houseCard2.Location = new Point(306, 28);
-            houseCard2.Margin = new Padding(4, 6, 4, 6);
-            houseCard2.MouseState = MaterialSkin.MouseState.HOVER;
-            houseCard2.Name = "houseCard2";
-            houseCard2.NoAccentTextColor = Color.Empty;
-            houseCard2.Size = new Size(234, 78);
-            houseCard2.TabIndex = 6;
-            houseCard2.Text = "A";
-            houseCard2.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
-            houseCard2.UseAccentColor = false;
-            houseCard2.UseVisualStyleBackColor = true;
-            houseCard2.Visible = false;
-            // 
-            // houseCard1
-            // 
-            houseCard1.AutoSizeMode = AutoSizeMode.GrowAndShrink;
-            houseCard1.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
-            houseCard1.Depth = 0;
-            houseCard1.Dock = DockStyle.Fill;
-            houseCard1.Enabled = false;
-            houseCard1.HighEmphasis = true;
-            houseCard1.Icon = null;
-            houseCard1.Location = new Point(64, 28);
-            houseCard1.Margin = new Padding(4, 6, 4, 6);
-            houseCard1.MouseState = MaterialSkin.MouseState.HOVER;
-            houseCard1.Name = "houseCard1";
-            houseCard1.NoAccentTextColor = Color.Empty;
-            houseCard1.Size = new Size(234, 78);
-            houseCard1.TabIndex = 0;
-            houseCard1.Text = "A";
-            houseCard1.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
-            houseCard1.UseAccentColor = false;
-            houseCard1.UseVisualStyleBackColor = true;
-            houseCard1.Visible = false;
             // 
             // houseLabelBig
             // 
             houseLabelBig.AutoSize = true;
-            houseLabelBig.Dock = DockStyle.Top;
+            tableLayoutPanel8.SetColumnSpan(houseLabelBig, 2);
+            houseLabelBig.Dock = DockStyle.Fill;
             houseLabelBig.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
-            houseLabelBig.Location = new Point(0, 0);
+            houseLabelBig.Location = new Point(3, 0);
             houseLabelBig.Name = "houseLabelBig";
-            houseLabelBig.Size = new Size(65, 25);
-            houseLabelBig.TabIndex = 0;
+            houseLabelBig.Size = new Size(296, 38);
+            houseLabelBig.TabIndex = 11;
             houseLabelBig.Text = "House";
+            // 
+            // houseHandLabel
+            // 
+            houseHandLabel.AutoSize = true;
+            houseHandLabel.Dock = DockStyle.Right;
+            houseHandLabel.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            houseHandLabel.Location = new Point(603, 0);
+            houseHandLabel.Name = "houseHandLabel";
+            houseHandLabel.Size = new Size(0, 38);
+            houseHandLabel.TabIndex = 12;
             // 
             // player1Panel
             // 
             player1Panel.Controls.Add(player1Cards);
             player1Panel.Controls.Add(player1ButtonTable);
-            player1Panel.Controls.Add(player1Label);
             player1Panel.Controls.Add(player1JoinButton);
             player1Panel.Dock = DockStyle.Fill;
-            player1Panel.Location = new Point(23, 279);
+            player1Panel.Location = new Point(23, 251);
             player1Panel.Name = "player1Panel";
-            player1Panel.Size = new Size(300, 307);
+            player1Panel.Size = new Size(300, 336);
             player1Panel.TabIndex = 1;
             // 
             // player1Cards
             // 
             player1Cards.ColumnCount = 4;
-            player1Cards.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 10F));
+            player1Cards.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 5F));
             player1Cards.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 40F));
             player1Cards.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 40F));
-            player1Cards.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 10F));
-            player1Cards.Controls.Add(player1Card4, 2, 3);
-            player1Cards.Controls.Add(player1Card3, 1, 3);
-            player1Cards.Controls.Add(player1Card2, 2, 2);
-            player1Cards.Controls.Add(player1Card1, 1, 2);
-            player1Cards.Controls.Add(player1MoneyLabelSmall, 1, 1);
-            player1Cards.Controls.Add(player1BetLabelSmall, 2, 1);
+            player1Cards.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 15F));
+            player1Cards.Controls.Add(player1MoneyLabelSmall, 1, 2);
+            player1Cards.Controls.Add(player1BetLabelSmall, 2, 2);
+            player1Cards.Controls.Add(player1Label, 0, 0);
+            player1Cards.Controls.Add(player1HandLabel, 3, 0);
+            player1Cards.Controls.Add(player1Card1, 1, 4);
+            player1Cards.Controls.Add(player1Card2, 2, 4);
+            player1Cards.Controls.Add(player1Card3, 1, 5);
+            player1Cards.Controls.Add(player1Card4, 2, 5);
             player1Cards.Dock = DockStyle.Fill;
-            player1Cards.Location = new Point(0, 21);
+            player1Cards.Location = new Point(0, 0);
             player1Cards.Name = "player1Cards";
-            player1Cards.RowCount = 5;
-            player1Cards.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
-            player1Cards.RowStyles.Add(new RowStyle(SizeType.Percent, 15F));
+            player1Cards.RowCount = 7;
+            player1Cards.RowStyles.Add(new RowStyle(SizeType.Percent, 10F));
+            player1Cards.RowStyles.Add(new RowStyle(SizeType.Absolute, 10F));
+            player1Cards.RowStyles.Add(new RowStyle(SizeType.Percent, 10F));
+            player1Cards.RowStyles.Add(new RowStyle(SizeType.Absolute, 10F));
             player1Cards.RowStyles.Add(new RowStyle(SizeType.Percent, 40F));
             player1Cards.RowStyles.Add(new RowStyle(SizeType.Percent, 40F));
-            player1Cards.RowStyles.Add(new RowStyle(SizeType.Percent, 5F));
-            player1Cards.Size = new Size(300, 204);
+            player1Cards.RowStyles.Add(new RowStyle(SizeType.Absolute, 10F));
+            player1Cards.Size = new Size(300, 254);
             player1Cards.TabIndex = 3;
-            // 
-            // player1Card4
-            // 
-            player1Card4.AutoSizeMode = AutoSizeMode.GrowAndShrink;
-            player1Card4.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
-            player1Card4.Depth = 0;
-            player1Card4.Dock = DockStyle.Fill;
-            player1Card4.Enabled = false;
-            player1Card4.HighEmphasis = true;
-            player1Card4.Icon = null;
-            player1Card4.Location = new Point(154, 126);
-            player1Card4.Margin = new Padding(4, 6, 4, 6);
-            player1Card4.MouseState = MaterialSkin.MouseState.HOVER;
-            player1Card4.Name = "player1Card4";
-            player1Card4.NoAccentTextColor = Color.Empty;
-            player1Card4.Size = new Size(112, 61);
-            player1Card4.TabIndex = 10;
-            player1Card4.Text = "A";
-            player1Card4.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
-            player1Card4.UseAccentColor = false;
-            player1Card4.UseVisualStyleBackColor = true;
-            player1Card4.Visible = false;
-            // 
-            // player1Card3
-            // 
-            player1Card3.AutoSizeMode = AutoSizeMode.GrowAndShrink;
-            player1Card3.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
-            player1Card3.Depth = 0;
-            player1Card3.Dock = DockStyle.Fill;
-            player1Card3.Enabled = false;
-            player1Card3.HighEmphasis = true;
-            player1Card3.Icon = null;
-            player1Card3.Location = new Point(34, 126);
-            player1Card3.Margin = new Padding(4, 6, 4, 6);
-            player1Card3.MouseState = MaterialSkin.MouseState.HOVER;
-            player1Card3.Name = "player1Card3";
-            player1Card3.NoAccentTextColor = Color.Empty;
-            player1Card3.Size = new Size(112, 61);
-            player1Card3.TabIndex = 9;
-            player1Card3.Text = "A";
-            player1Card3.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
-            player1Card3.UseAccentColor = false;
-            player1Card3.UseVisualStyleBackColor = true;
-            player1Card3.Visible = false;
-            // 
-            // player1Card2
-            // 
-            player1Card2.AutoSizeMode = AutoSizeMode.GrowAndShrink;
-            player1Card2.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
-            player1Card2.Depth = 0;
-            player1Card2.Dock = DockStyle.Fill;
-            player1Card2.Enabled = false;
-            player1Card2.HighEmphasis = true;
-            player1Card2.Icon = null;
-            player1Card2.Location = new Point(154, 53);
-            player1Card2.Margin = new Padding(4, 6, 4, 6);
-            player1Card2.MouseState = MaterialSkin.MouseState.HOVER;
-            player1Card2.Name = "player1Card2";
-            player1Card2.NoAccentTextColor = Color.Empty;
-            player1Card2.Size = new Size(112, 61);
-            player1Card2.TabIndex = 6;
-            player1Card2.Text = "A";
-            player1Card2.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
-            player1Card2.UseAccentColor = false;
-            player1Card2.UseVisualStyleBackColor = true;
-            player1Card2.Visible = false;
-            // 
-            // player1Card1
-            // 
-            player1Card1.AutoSizeMode = AutoSizeMode.GrowAndShrink;
-            player1Card1.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
-            player1Card1.Depth = 0;
-            player1Card1.Dock = DockStyle.Fill;
-            player1Card1.Enabled = false;
-            player1Card1.HighEmphasis = true;
-            player1Card1.Icon = null;
-            player1Card1.Location = new Point(34, 53);
-            player1Card1.Margin = new Padding(4, 6, 4, 6);
-            player1Card1.MouseState = MaterialSkin.MouseState.HOVER;
-            player1Card1.Name = "player1Card1";
-            player1Card1.NoAccentTextColor = Color.Empty;
-            player1Card1.Size = new Size(112, 61);
-            player1Card1.TabIndex = 0;
-            player1Card1.Text = "A";
-            player1Card1.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
-            player1Card1.UseAccentColor = false;
-            player1Card1.UseVisualStyleBackColor = true;
-            player1Card1.Visible = false;
             // 
             // player1MoneyLabelSmall
             // 
             player1MoneyLabelSmall.AutoSize = true;
             player1MoneyLabelSmall.Dock = DockStyle.Fill;
             player1MoneyLabelSmall.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            player1MoneyLabelSmall.Location = new Point(33, 20);
+            player1MoneyLabelSmall.Location = new Point(18, 32);
             player1MoneyLabelSmall.Name = "player1MoneyLabelSmall";
-            player1MoneyLabelSmall.Size = new Size(114, 27);
+            player1MoneyLabelSmall.Size = new Size(114, 22);
             player1MoneyLabelSmall.TabIndex = 11;
             // 
             // player1BetLabelSmall
             // 
             player1BetLabelSmall.AutoSize = true;
             player1BetLabelSmall.Dock = DockStyle.Fill;
-            player1BetLabelSmall.Location = new Point(153, 20);
+            player1BetLabelSmall.Location = new Point(138, 32);
             player1BetLabelSmall.Name = "player1BetLabelSmall";
-            player1BetLabelSmall.Size = new Size(114, 27);
+            player1BetLabelSmall.Size = new Size(114, 22);
             player1BetLabelSmall.TabIndex = 12;
+            // 
+            // player1Label
+            // 
+            player1Label.AutoSize = true;
+            player1Cards.SetColumnSpan(player1Label, 3);
+            player1Label.Dock = DockStyle.Fill;
+            player1Label.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            player1Label.Location = new Point(3, 0);
+            player1Label.Name = "player1Label";
+            player1Label.Size = new Size(249, 22);
+            player1Label.TabIndex = 13;
+            player1Label.Text = "Player 1";
+            // 
+            // player1HandLabel
+            // 
+            player1HandLabel.AutoSize = true;
+            player1HandLabel.Dock = DockStyle.Fill;
+            player1HandLabel.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            player1HandLabel.Location = new Point(258, 0);
+            player1HandLabel.Name = "player1HandLabel";
+            player1HandLabel.Size = new Size(39, 22);
+            player1HandLabel.TabIndex = 14;
+            // 
+            // player1Card1
+            // 
+            player1Card1.BackColor = Color.Transparent;
+            player1Card1.BackgroundImageLayout = ImageLayout.Zoom;
+            player1Card1.Dock = DockStyle.Fill;
+            player1Card1.FlatAppearance.BorderSize = 0;
+            player1Card1.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            player1Card1.FlatAppearance.MouseOverBackColor = Color.Transparent;
+            player1Card1.FlatStyle = FlatStyle.Flat;
+            player1Card1.Location = new Point(18, 67);
+            player1Card1.Name = "player1Card1";
+            player1Card1.Size = new Size(114, 83);
+            player1Card1.TabIndex = 15;
+            player1Card1.UseVisualStyleBackColor = false;
             // 
             // player1ButtonTable
             // 
@@ -826,7 +644,7 @@
             player1ButtonTable.Controls.Add(player1DoubleButton, 2, 0);
             player1ButtonTable.Controls.Add(player1LeaveButton, 3, 0);
             player1ButtonTable.Dock = DockStyle.Bottom;
-            player1ButtonTable.Location = new Point(0, 225);
+            player1ButtonTable.Location = new Point(0, 254);
             player1ButtonTable.Name = "player1ButtonTable";
             player1ButtonTable.RowCount = 1;
             player1ButtonTable.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
@@ -913,17 +731,6 @@
             player1LeaveButton.UseAccentColor = false;
             player1LeaveButton.UseVisualStyleBackColor = true;
             // 
-            // player1Label
-            // 
-            player1Label.AutoSize = true;
-            player1Label.Dock = DockStyle.Top;
-            player1Label.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            player1Label.Location = new Point(0, 0);
-            player1Label.Name = "player1Label";
-            player1Label.Size = new Size(66, 21);
-            player1Label.TabIndex = 1;
-            player1Label.Text = "Player 1";
-            // 
             // player1JoinButton
             // 
             player1JoinButton.AutoSizeMode = AutoSizeMode.GrowAndShrink;
@@ -932,7 +739,7 @@
             player1JoinButton.Dock = DockStyle.Bottom;
             player1JoinButton.HighEmphasis = true;
             player1JoinButton.Icon = null;
-            player1JoinButton.Location = new Point(0, 271);
+            player1JoinButton.Location = new Point(0, 300);
             player1JoinButton.Margin = new Padding(4, 6, 4, 6);
             player1JoinButton.MouseState = MaterialSkin.MouseState.HOVER;
             player1JoinButton.Name = "player1JoinButton";
@@ -948,135 +755,50 @@
             // 
             player3Panel.Controls.Add(player3Cards);
             player3Panel.Controls.Add(player3ButtonTable);
-            player3Panel.Controls.Add(player3Label);
             player3Panel.Controls.Add(player3JoinButton);
             player3Panel.Dock = DockStyle.Fill;
-            player3Panel.Location = new Point(635, 279);
+            player3Panel.Location = new Point(635, 251);
             player3Panel.Name = "player3Panel";
-            player3Panel.Size = new Size(300, 307);
+            player3Panel.Size = new Size(300, 336);
             player3Panel.TabIndex = 3;
             // 
             // player3Cards
             // 
             player3Cards.ColumnCount = 4;
-            player3Cards.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 10F));
+            player3Cards.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 5F));
             player3Cards.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 40F));
             player3Cards.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 40F));
-            player3Cards.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 10F));
-            player3Cards.Controls.Add(player3Card4, 2, 3);
-            player3Cards.Controls.Add(player3Card3, 1, 3);
-            player3Cards.Controls.Add(player3Card2, 2, 2);
-            player3Cards.Controls.Add(player3Card1, 1, 2);
-            player3Cards.Controls.Add(player3MoneyLabelSmall, 1, 1);
-            player3Cards.Controls.Add(player3BetLabelSmall, 2, 1);
+            player3Cards.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 15F));
+            player3Cards.Controls.Add(player3MoneyLabelSmall, 1, 2);
+            player3Cards.Controls.Add(player3BetLabelSmall, 2, 2);
+            player3Cards.Controls.Add(player3Label, 0, 0);
+            player3Cards.Controls.Add(player3HandLabel, 3, 0);
+            player3Cards.Controls.Add(player3Card3, 1, 5);
+            player3Cards.Controls.Add(player3Card1, 1, 4);
+            player3Cards.Controls.Add(player3Card2, 2, 4);
+            player3Cards.Controls.Add(player3Card4, 2, 5);
             player3Cards.Dock = DockStyle.Fill;
-            player3Cards.Location = new Point(0, 21);
+            player3Cards.Location = new Point(0, 0);
             player3Cards.Name = "player3Cards";
-            player3Cards.RowCount = 5;
-            player3Cards.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
-            player3Cards.RowStyles.Add(new RowStyle(SizeType.Percent, 15F));
+            player3Cards.RowCount = 7;
+            player3Cards.RowStyles.Add(new RowStyle(SizeType.Percent, 10F));
+            player3Cards.RowStyles.Add(new RowStyle(SizeType.Absolute, 10F));
+            player3Cards.RowStyles.Add(new RowStyle(SizeType.Percent, 10F));
+            player3Cards.RowStyles.Add(new RowStyle(SizeType.Absolute, 10F));
             player3Cards.RowStyles.Add(new RowStyle(SizeType.Percent, 40F));
             player3Cards.RowStyles.Add(new RowStyle(SizeType.Percent, 40F));
-            player3Cards.RowStyles.Add(new RowStyle(SizeType.Percent, 5F));
-            player3Cards.Size = new Size(300, 204);
+            player3Cards.RowStyles.Add(new RowStyle(SizeType.Absolute, 10F));
+            player3Cards.Size = new Size(300, 254);
             player3Cards.TabIndex = 6;
-            // 
-            // player3Card4
-            // 
-            player3Card4.AutoSizeMode = AutoSizeMode.GrowAndShrink;
-            player3Card4.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
-            player3Card4.Depth = 0;
-            player3Card4.Dock = DockStyle.Fill;
-            player3Card4.Enabled = false;
-            player3Card4.HighEmphasis = true;
-            player3Card4.Icon = null;
-            player3Card4.Location = new Point(154, 126);
-            player3Card4.Margin = new Padding(4, 6, 4, 6);
-            player3Card4.MouseState = MaterialSkin.MouseState.HOVER;
-            player3Card4.Name = "player3Card4";
-            player3Card4.NoAccentTextColor = Color.Empty;
-            player3Card4.Size = new Size(112, 61);
-            player3Card4.TabIndex = 10;
-            player3Card4.Text = "A";
-            player3Card4.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
-            player3Card4.UseAccentColor = false;
-            player3Card4.UseVisualStyleBackColor = true;
-            player3Card4.Visible = false;
-            // 
-            // player3Card3
-            // 
-            player3Card3.AutoSizeMode = AutoSizeMode.GrowAndShrink;
-            player3Card3.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
-            player3Card3.Depth = 0;
-            player3Card3.Dock = DockStyle.Fill;
-            player3Card3.Enabled = false;
-            player3Card3.HighEmphasis = true;
-            player3Card3.Icon = null;
-            player3Card3.Location = new Point(34, 126);
-            player3Card3.Margin = new Padding(4, 6, 4, 6);
-            player3Card3.MouseState = MaterialSkin.MouseState.HOVER;
-            player3Card3.Name = "player3Card3";
-            player3Card3.NoAccentTextColor = Color.Empty;
-            player3Card3.Size = new Size(112, 61);
-            player3Card3.TabIndex = 9;
-            player3Card3.Text = "A";
-            player3Card3.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
-            player3Card3.UseAccentColor = false;
-            player3Card3.UseVisualStyleBackColor = true;
-            player3Card3.Visible = false;
-            // 
-            // player3Card2
-            // 
-            player3Card2.AutoSizeMode = AutoSizeMode.GrowAndShrink;
-            player3Card2.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
-            player3Card2.Depth = 0;
-            player3Card2.Dock = DockStyle.Fill;
-            player3Card2.Enabled = false;
-            player3Card2.HighEmphasis = true;
-            player3Card2.Icon = null;
-            player3Card2.Location = new Point(154, 53);
-            player3Card2.Margin = new Padding(4, 6, 4, 6);
-            player3Card2.MouseState = MaterialSkin.MouseState.HOVER;
-            player3Card2.Name = "player3Card2";
-            player3Card2.NoAccentTextColor = Color.Empty;
-            player3Card2.Size = new Size(112, 61);
-            player3Card2.TabIndex = 6;
-            player3Card2.Text = "A";
-            player3Card2.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
-            player3Card2.UseAccentColor = false;
-            player3Card2.UseVisualStyleBackColor = true;
-            player3Card2.Visible = false;
-            // 
-            // player3Card1
-            // 
-            player3Card1.AutoSizeMode = AutoSizeMode.GrowAndShrink;
-            player3Card1.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
-            player3Card1.Depth = 0;
-            player3Card1.Dock = DockStyle.Fill;
-            player3Card1.Enabled = false;
-            player3Card1.HighEmphasis = true;
-            player3Card1.Icon = null;
-            player3Card1.Location = new Point(34, 53);
-            player3Card1.Margin = new Padding(4, 6, 4, 6);
-            player3Card1.MouseState = MaterialSkin.MouseState.HOVER;
-            player3Card1.Name = "player3Card1";
-            player3Card1.NoAccentTextColor = Color.Empty;
-            player3Card1.Size = new Size(112, 61);
-            player3Card1.TabIndex = 0;
-            player3Card1.Text = "A";
-            player3Card1.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
-            player3Card1.UseAccentColor = false;
-            player3Card1.UseVisualStyleBackColor = true;
-            player3Card1.Visible = false;
             // 
             // player3MoneyLabelSmall
             // 
             player3MoneyLabelSmall.AutoSize = true;
             player3MoneyLabelSmall.Dock = DockStyle.Fill;
             player3MoneyLabelSmall.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            player3MoneyLabelSmall.Location = new Point(33, 20);
+            player3MoneyLabelSmall.Location = new Point(18, 32);
             player3MoneyLabelSmall.Name = "player3MoneyLabelSmall";
-            player3MoneyLabelSmall.Size = new Size(114, 27);
+            player3MoneyLabelSmall.Size = new Size(114, 22);
             player3MoneyLabelSmall.TabIndex = 11;
             // 
             // player3BetLabelSmall
@@ -1084,10 +806,32 @@
             player3BetLabelSmall.AutoSize = true;
             player3BetLabelSmall.Dock = DockStyle.Fill;
             player3BetLabelSmall.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            player3BetLabelSmall.Location = new Point(153, 20);
+            player3BetLabelSmall.Location = new Point(138, 32);
             player3BetLabelSmall.Name = "player3BetLabelSmall";
-            player3BetLabelSmall.Size = new Size(114, 27);
+            player3BetLabelSmall.Size = new Size(114, 22);
             player3BetLabelSmall.TabIndex = 12;
+            // 
+            // player3Label
+            // 
+            player3Label.AutoSize = true;
+            player3Cards.SetColumnSpan(player3Label, 3);
+            player3Label.Dock = DockStyle.Fill;
+            player3Label.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            player3Label.Location = new Point(3, 0);
+            player3Label.Name = "player3Label";
+            player3Label.Size = new Size(249, 22);
+            player3Label.TabIndex = 13;
+            player3Label.Text = "Player 3";
+            // 
+            // player3HandLabel
+            // 
+            player3HandLabel.AutoSize = true;
+            player3HandLabel.Dock = DockStyle.Fill;
+            player3HandLabel.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            player3HandLabel.Location = new Point(258, 0);
+            player3HandLabel.Name = "player3HandLabel";
+            player3HandLabel.Size = new Size(39, 22);
+            player3HandLabel.TabIndex = 14;
             // 
             // player3ButtonTable
             // 
@@ -1101,7 +845,7 @@
             player3ButtonTable.Controls.Add(player3DoubleButton, 2, 0);
             player3ButtonTable.Controls.Add(player3LeaveButton, 3, 0);
             player3ButtonTable.Dock = DockStyle.Bottom;
-            player3ButtonTable.Location = new Point(0, 225);
+            player3ButtonTable.Location = new Point(0, 254);
             player3ButtonTable.Name = "player3ButtonTable";
             player3ButtonTable.RowCount = 1;
             player3ButtonTable.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
@@ -1187,17 +931,6 @@
             player3LeaveButton.UseAccentColor = false;
             player3LeaveButton.UseVisualStyleBackColor = true;
             // 
-            // player3Label
-            // 
-            player3Label.AutoSize = true;
-            player3Label.Dock = DockStyle.Top;
-            player3Label.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            player3Label.Location = new Point(0, 0);
-            player3Label.Name = "player3Label";
-            player3Label.Size = new Size(66, 21);
-            player3Label.TabIndex = 4;
-            player3Label.Text = "Player 3";
-            // 
             // player3JoinButton
             // 
             player3JoinButton.AutoSizeMode = AutoSizeMode.GrowAndShrink;
@@ -1206,7 +939,7 @@
             player3JoinButton.Dock = DockStyle.Bottom;
             player3JoinButton.HighEmphasis = true;
             player3JoinButton.Icon = null;
-            player3JoinButton.Location = new Point(0, 271);
+            player3JoinButton.Location = new Point(0, 300);
             player3JoinButton.Margin = new Padding(4, 6, 4, 6);
             player3JoinButton.MouseState = MaterialSkin.MouseState.HOVER;
             player3JoinButton.Name = "player3JoinButton";
@@ -1222,135 +955,50 @@
             // 
             player4Panel.Controls.Add(player4Cards);
             player4Panel.Controls.Add(player4ButtonTable);
-            player4Panel.Controls.Add(player4Label);
             player4Panel.Controls.Add(player4JoinButton);
             player4Panel.Dock = DockStyle.Fill;
-            player4Panel.Location = new Point(941, 279);
+            player4Panel.Location = new Point(941, 251);
             player4Panel.Name = "player4Panel";
-            player4Panel.Size = new Size(300, 307);
+            player4Panel.Size = new Size(300, 336);
             player4Panel.TabIndex = 4;
             // 
             // player4Cards
             // 
             player4Cards.ColumnCount = 4;
-            player4Cards.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 10F));
+            player4Cards.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 5F));
             player4Cards.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 40F));
             player4Cards.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 40F));
-            player4Cards.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 10F));
-            player4Cards.Controls.Add(player4Card4, 2, 3);
-            player4Cards.Controls.Add(player4Card3, 1, 3);
-            player4Cards.Controls.Add(player4Card2, 2, 2);
-            player4Cards.Controls.Add(player4Card1, 1, 2);
-            player4Cards.Controls.Add(player4MoneyLabelSmall, 1, 1);
-            player4Cards.Controls.Add(player4BetLabelSmall, 2, 1);
+            player4Cards.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 15F));
+            player4Cards.Controls.Add(player4Card1, 1, 4);
+            player4Cards.Controls.Add(player4MoneyLabelSmall, 1, 2);
+            player4Cards.Controls.Add(player4BetLabelSmall, 2, 2);
+            player4Cards.Controls.Add(player4Label, 0, 0);
+            player4Cards.Controls.Add(player4HandLabel, 3, 0);
+            player4Cards.Controls.Add(player4Card2, 2, 4);
+            player4Cards.Controls.Add(player4Card3, 1, 5);
+            player4Cards.Controls.Add(player4Card4, 2, 5);
             player4Cards.Dock = DockStyle.Fill;
-            player4Cards.Location = new Point(0, 21);
+            player4Cards.Location = new Point(0, 0);
             player4Cards.Name = "player4Cards";
-            player4Cards.RowCount = 5;
-            player4Cards.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
-            player4Cards.RowStyles.Add(new RowStyle(SizeType.Percent, 15F));
+            player4Cards.RowCount = 7;
+            player4Cards.RowStyles.Add(new RowStyle(SizeType.Percent, 10F));
+            player4Cards.RowStyles.Add(new RowStyle(SizeType.Absolute, 10F));
+            player4Cards.RowStyles.Add(new RowStyle(SizeType.Percent, 10F));
+            player4Cards.RowStyles.Add(new RowStyle(SizeType.Absolute, 10F));
             player4Cards.RowStyles.Add(new RowStyle(SizeType.Percent, 40F));
             player4Cards.RowStyles.Add(new RowStyle(SizeType.Percent, 40F));
-            player4Cards.RowStyles.Add(new RowStyle(SizeType.Percent, 5F));
-            player4Cards.Size = new Size(300, 204);
+            player4Cards.RowStyles.Add(new RowStyle(SizeType.Absolute, 10F));
+            player4Cards.Size = new Size(300, 254);
             player4Cards.TabIndex = 5;
-            // 
-            // player4Card4
-            // 
-            player4Card4.AutoSizeMode = AutoSizeMode.GrowAndShrink;
-            player4Card4.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
-            player4Card4.Depth = 0;
-            player4Card4.Dock = DockStyle.Fill;
-            player4Card4.Enabled = false;
-            player4Card4.HighEmphasis = true;
-            player4Card4.Icon = null;
-            player4Card4.Location = new Point(154, 126);
-            player4Card4.Margin = new Padding(4, 6, 4, 6);
-            player4Card4.MouseState = MaterialSkin.MouseState.HOVER;
-            player4Card4.Name = "player4Card4";
-            player4Card4.NoAccentTextColor = Color.Empty;
-            player4Card4.Size = new Size(112, 61);
-            player4Card4.TabIndex = 10;
-            player4Card4.Text = "A";
-            player4Card4.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
-            player4Card4.UseAccentColor = false;
-            player4Card4.UseVisualStyleBackColor = true;
-            player4Card4.Visible = false;
-            // 
-            // player4Card3
-            // 
-            player4Card3.AutoSizeMode = AutoSizeMode.GrowAndShrink;
-            player4Card3.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
-            player4Card3.Depth = 0;
-            player4Card3.Dock = DockStyle.Fill;
-            player4Card3.Enabled = false;
-            player4Card3.HighEmphasis = true;
-            player4Card3.Icon = null;
-            player4Card3.Location = new Point(34, 126);
-            player4Card3.Margin = new Padding(4, 6, 4, 6);
-            player4Card3.MouseState = MaterialSkin.MouseState.HOVER;
-            player4Card3.Name = "player4Card3";
-            player4Card3.NoAccentTextColor = Color.Empty;
-            player4Card3.Size = new Size(112, 61);
-            player4Card3.TabIndex = 9;
-            player4Card3.Text = "A";
-            player4Card3.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
-            player4Card3.UseAccentColor = false;
-            player4Card3.UseVisualStyleBackColor = true;
-            player4Card3.Visible = false;
-            // 
-            // player4Card2
-            // 
-            player4Card2.AutoSizeMode = AutoSizeMode.GrowAndShrink;
-            player4Card2.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
-            player4Card2.Depth = 0;
-            player4Card2.Dock = DockStyle.Fill;
-            player4Card2.Enabled = false;
-            player4Card2.HighEmphasis = true;
-            player4Card2.Icon = null;
-            player4Card2.Location = new Point(154, 53);
-            player4Card2.Margin = new Padding(4, 6, 4, 6);
-            player4Card2.MouseState = MaterialSkin.MouseState.HOVER;
-            player4Card2.Name = "player4Card2";
-            player4Card2.NoAccentTextColor = Color.Empty;
-            player4Card2.Size = new Size(112, 61);
-            player4Card2.TabIndex = 6;
-            player4Card2.Text = "A";
-            player4Card2.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
-            player4Card2.UseAccentColor = false;
-            player4Card2.UseVisualStyleBackColor = true;
-            player4Card2.Visible = false;
-            // 
-            // player4Card1
-            // 
-            player4Card1.AutoSizeMode = AutoSizeMode.GrowAndShrink;
-            player4Card1.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
-            player4Card1.Depth = 0;
-            player4Card1.Dock = DockStyle.Fill;
-            player4Card1.Enabled = false;
-            player4Card1.HighEmphasis = true;
-            player4Card1.Icon = null;
-            player4Card1.Location = new Point(34, 53);
-            player4Card1.Margin = new Padding(4, 6, 4, 6);
-            player4Card1.MouseState = MaterialSkin.MouseState.HOVER;
-            player4Card1.Name = "player4Card1";
-            player4Card1.NoAccentTextColor = Color.Empty;
-            player4Card1.Size = new Size(112, 61);
-            player4Card1.TabIndex = 0;
-            player4Card1.Text = "A";
-            player4Card1.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
-            player4Card1.UseAccentColor = false;
-            player4Card1.UseVisualStyleBackColor = true;
-            player4Card1.Visible = false;
             // 
             // player4MoneyLabelSmall
             // 
             player4MoneyLabelSmall.AutoSize = true;
             player4MoneyLabelSmall.Dock = DockStyle.Fill;
             player4MoneyLabelSmall.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            player4MoneyLabelSmall.Location = new Point(33, 20);
+            player4MoneyLabelSmall.Location = new Point(18, 32);
             player4MoneyLabelSmall.Name = "player4MoneyLabelSmall";
-            player4MoneyLabelSmall.Size = new Size(114, 27);
+            player4MoneyLabelSmall.Size = new Size(114, 22);
             player4MoneyLabelSmall.TabIndex = 11;
             // 
             // player4BetLabelSmall
@@ -1358,10 +1006,33 @@
             player4BetLabelSmall.AutoSize = true;
             player4BetLabelSmall.Dock = DockStyle.Fill;
             player4BetLabelSmall.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            player4BetLabelSmall.Location = new Point(153, 20);
+            player4BetLabelSmall.Location = new Point(138, 32);
             player4BetLabelSmall.Name = "player4BetLabelSmall";
-            player4BetLabelSmall.Size = new Size(114, 27);
+            player4BetLabelSmall.Size = new Size(114, 22);
             player4BetLabelSmall.TabIndex = 12;
+            // 
+            // player4Label
+            // 
+            player4Label.AutoSize = true;
+            player4Cards.SetColumnSpan(player4Label, 3);
+            player4Label.Dock = DockStyle.Fill;
+            player4Label.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            player4Label.Location = new Point(3, 0);
+            player4Label.Name = "player4Label";
+            player4Label.Size = new Size(249, 22);
+            player4Label.TabIndex = 13;
+            player4Label.Text = "Player 4";
+            // 
+            // player4HandLabel
+            // 
+            player4HandLabel.AutoSize = true;
+            player4HandLabel.Dock = DockStyle.Fill;
+            player4HandLabel.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            player4HandLabel.Location = new Point(258, 0);
+            player4HandLabel.Name = "player4HandLabel";
+            player4HandLabel.RightToLeft = RightToLeft.No;
+            player4HandLabel.Size = new Size(39, 22);
+            player4HandLabel.TabIndex = 14;
             // 
             // player4ButtonTable
             // 
@@ -1375,7 +1046,7 @@
             player4ButtonTable.Controls.Add(player4DoubleButton, 2, 0);
             player4ButtonTable.Controls.Add(player4LeaveButton, 3, 0);
             player4ButtonTable.Dock = DockStyle.Bottom;
-            player4ButtonTable.Location = new Point(0, 225);
+            player4ButtonTable.Location = new Point(0, 254);
             player4ButtonTable.Name = "player4ButtonTable";
             player4ButtonTable.RowCount = 1;
             player4ButtonTable.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
@@ -1461,17 +1132,6 @@
             player4LeaveButton.UseAccentColor = false;
             player4LeaveButton.UseVisualStyleBackColor = true;
             // 
-            // player4Label
-            // 
-            player4Label.AutoSize = true;
-            player4Label.Dock = DockStyle.Top;
-            player4Label.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            player4Label.Location = new Point(0, 0);
-            player4Label.Name = "player4Label";
-            player4Label.Size = new Size(66, 21);
-            player4Label.TabIndex = 3;
-            player4Label.Text = "Player 4";
-            // 
             // player4JoinButton
             // 
             player4JoinButton.AutoSizeMode = AutoSizeMode.GrowAndShrink;
@@ -1480,7 +1140,7 @@
             player4JoinButton.Dock = DockStyle.Bottom;
             player4JoinButton.HighEmphasis = true;
             player4JoinButton.Icon = null;
-            player4JoinButton.Location = new Point(0, 271);
+            player4JoinButton.Location = new Point(0, 300);
             player4JoinButton.Margin = new Padding(4, 6, 4, 6);
             player4JoinButton.MouseState = MaterialSkin.MouseState.HOVER;
             player4JoinButton.Name = "player4JoinButton";
@@ -1497,7 +1157,7 @@
             cardsPanel.Dock = DockStyle.Fill;
             cardsPanel.Location = new Point(941, 23);
             cardsPanel.Name = "cardsPanel";
-            cardsPanel.Size = new Size(300, 250);
+            cardsPanel.Size = new Size(300, 222);
             cardsPanel.TabIndex = 5;
             // 
             // actionPanel
@@ -1506,7 +1166,7 @@
             actionPanel.Dock = DockStyle.Fill;
             actionPanel.Location = new Point(23, 23);
             actionPanel.Name = "actionPanel";
-            actionPanel.Size = new Size(300, 250);
+            actionPanel.Size = new Size(300, 222);
             actionPanel.TabIndex = 6;
             // 
             // tableLayoutPanel1
@@ -1525,7 +1185,7 @@
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 40F));
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
-            tableLayoutPanel1.Size = new Size(300, 250);
+            tableLayoutPanel1.Size = new Size(300, 222);
             tableLayoutPanel1.TabIndex = 0;
             // 
             // startButton
@@ -1537,17 +1197,1045 @@
             startButton.Enabled = false;
             startButton.HighEmphasis = true;
             startButton.Icon = null;
-            startButton.Location = new Point(79, 106);
+            startButton.Location = new Point(79, 94);
             startButton.Margin = new Padding(4, 6, 4, 6);
             startButton.MouseState = MaterialSkin.MouseState.HOVER;
             startButton.Name = "startButton";
             startButton.NoAccentTextColor = Color.Empty;
-            startButton.Size = new Size(142, 38);
+            startButton.Size = new Size(142, 32);
             startButton.TabIndex = 0;
             startButton.Text = "Start";
             startButton.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
             startButton.UseAccentColor = false;
             startButton.UseVisualStyleBackColor = true;
+            // 
+            // Roulette
+            // 
+            Roulette.Controls.Add(roulleteTableLayout);
+            Roulette.ImageKey = "roullete.png";
+            Roulette.Location = new Point(4, 39);
+            Roulette.Name = "Roulette";
+            Roulette.Padding = new Padding(3);
+            Roulette.Size = new Size(1266, 610);
+            Roulette.TabIndex = 1;
+            Roulette.Text = "Roulette";
+            Roulette.UseVisualStyleBackColor = true;
+            // 
+            // roulleteTableLayout
+            // 
+            roulleteTableLayout.AutoScroll = true;
+            roulleteTableLayout.ColumnCount = 6;
+            roulleteTableLayout.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 20F));
+            roulleteTableLayout.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 17.5F));
+            roulleteTableLayout.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 17.5F));
+            roulleteTableLayout.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 32.5F));
+            roulleteTableLayout.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 32.5F));
+            roulleteTableLayout.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 20F));
+            roulleteTableLayout.Controls.Add(boardTableLayout, 3, 1);
+            roulleteTableLayout.Controls.Add(buttonsTableLayout, 1, 2);
+            roulleteTableLayout.Controls.Add(wheelTableLayout, 1, 1);
+            roulleteTableLayout.Dock = DockStyle.Fill;
+            roulleteTableLayout.Location = new Point(3, 3);
+            roulleteTableLayout.Name = "roulleteTableLayout";
+            roulleteTableLayout.RowCount = 4;
+            roulleteTableLayout.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
+            roulleteTableLayout.RowStyles.Add(new RowStyle(SizeType.Percent, 90F));
+            roulleteTableLayout.RowStyles.Add(new RowStyle(SizeType.Percent, 10F));
+            roulleteTableLayout.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
+            roulleteTableLayout.Size = new Size(1260, 604);
+            roulleteTableLayout.TabIndex = 0;
+            // 
+            // boardTableLayout
+            // 
+            boardTableLayout.ColumnCount = 16;
+            roulleteTableLayout.SetColumnSpan(boardTableLayout, 2);
+            boardTableLayout.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 20F));
+            boardTableLayout.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 6.85548449F));
+            boardTableLayout.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 6.85548449F));
+            boardTableLayout.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 6.85548449F));
+            boardTableLayout.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 6.85548449F));
+            boardTableLayout.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 6.85548449F));
+            boardTableLayout.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 6.85548449F));
+            boardTableLayout.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 6.85548449F));
+            boardTableLayout.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 6.85548449F));
+            boardTableLayout.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 6.85548449F));
+            boardTableLayout.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 6.85548449F));
+            boardTableLayout.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 6.85548449F));
+            boardTableLayout.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 6.85548449F));
+            boardTableLayout.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 6.85548449F));
+            boardTableLayout.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 10.8786926F));
+            boardTableLayout.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 20F));
+            boardTableLayout.Controls.Add(secondButton, 12, 5);
+            boardTableLayout.Controls.Add(oddButton, 10, 5);
+            boardTableLayout.Controls.Add(blackButton, 8, 5);
+            boardTableLayout.Controls.Add(redButton, 6, 5);
+            boardTableLayout.Controls.Add(evenButton, 4, 5);
+            boardTableLayout.Controls.Add(row1Button, 14, 4);
+            boardTableLayout.Controls.Add(button34, 13, 4);
+            boardTableLayout.Controls.Add(button31, 12, 4);
+            boardTableLayout.Controls.Add(button28, 11, 4);
+            boardTableLayout.Controls.Add(button25, 10, 4);
+            boardTableLayout.Controls.Add(button22, 9, 4);
+            boardTableLayout.Controls.Add(button19, 8, 4);
+            boardTableLayout.Controls.Add(button16, 7, 4);
+            boardTableLayout.Controls.Add(button13, 6, 4);
+            boardTableLayout.Controls.Add(button10, 5, 4);
+            boardTableLayout.Controls.Add(button7, 4, 4);
+            boardTableLayout.Controls.Add(button4, 3, 4);
+            boardTableLayout.Controls.Add(button1, 2, 4);
+            boardTableLayout.Controls.Add(row2Button, 14, 3);
+            boardTableLayout.Controls.Add(button35, 13, 3);
+            boardTableLayout.Controls.Add(button32, 12, 3);
+            boardTableLayout.Controls.Add(button29, 11, 3);
+            boardTableLayout.Controls.Add(button26, 10, 3);
+            boardTableLayout.Controls.Add(button23, 9, 3);
+            boardTableLayout.Controls.Add(button20, 8, 3);
+            boardTableLayout.Controls.Add(button17, 7, 3);
+            boardTableLayout.Controls.Add(button14, 6, 3);
+            boardTableLayout.Controls.Add(button11, 5, 3);
+            boardTableLayout.Controls.Add(button8, 4, 3);
+            boardTableLayout.Controls.Add(button5, 3, 3);
+            boardTableLayout.Controls.Add(button2, 2, 3);
+            boardTableLayout.Controls.Add(row3Button, 14, 2);
+            boardTableLayout.Controls.Add(button36, 13, 2);
+            boardTableLayout.Controls.Add(button33, 12, 2);
+            boardTableLayout.Controls.Add(button30, 11, 2);
+            boardTableLayout.Controls.Add(button27, 10, 2);
+            boardTableLayout.Controls.Add(button24, 9, 2);
+            boardTableLayout.Controls.Add(button21, 8, 2);
+            boardTableLayout.Controls.Add(button18, 7, 2);
+            boardTableLayout.Controls.Add(button15, 6, 2);
+            boardTableLayout.Controls.Add(button12, 5, 2);
+            boardTableLayout.Controls.Add(button9, 4, 2);
+            boardTableLayout.Controls.Add(button6, 3, 2);
+            boardTableLayout.Controls.Add(col3Button, 10, 1);
+            boardTableLayout.Controls.Add(col2Button, 6, 1);
+            boardTableLayout.Controls.Add(col1Button, 2, 1);
+            boardTableLayout.Controls.Add(button0, 1, 2);
+            boardTableLayout.Controls.Add(button3, 2, 2);
+            boardTableLayout.Controls.Add(firstButton, 2, 5);
+            boardTableLayout.Controls.Add(tableLayoutPanel2, 2, 6);
+            boardTableLayout.Controls.Add(lablesTableLayout, 2, 0);
+            boardTableLayout.Dock = DockStyle.Fill;
+            boardTableLayout.Location = new Point(449, 23);
+            boardTableLayout.Name = "boardTableLayout";
+            boardTableLayout.RowCount = 7;
+            boardTableLayout.RowStyles.Add(new RowStyle(SizeType.Percent, 25F));
+            boardTableLayout.RowStyles.Add(new RowStyle(SizeType.Percent, 10F));
+            boardTableLayout.RowStyles.Add(new RowStyle(SizeType.Percent, 10F));
+            boardTableLayout.RowStyles.Add(new RowStyle(SizeType.Percent, 10F));
+            boardTableLayout.RowStyles.Add(new RowStyle(SizeType.Percent, 10F));
+            boardTableLayout.RowStyles.Add(new RowStyle(SizeType.Percent, 10F));
+            boardTableLayout.RowStyles.Add(new RowStyle(SizeType.Percent, 25F));
+            boardTableLayout.Size = new Size(786, 501);
+            boardTableLayout.TabIndex = 1;
+            // 
+            // secondButton
+            // 
+            secondButton.BackgroundImage = Properties.Resources.green;
+            boardTableLayout.SetColumnSpan(secondButton, 2);
+            secondButton.Dock = DockStyle.Fill;
+            secondButton.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            secondButton.ForeColor = Color.White;
+            secondButton.Location = new Point(584, 328);
+            secondButton.Name = "secondButton";
+            secondButton.Size = new Size(96, 44);
+            secondButton.TabIndex = 78;
+            secondButton.Text = "19 - 36";
+            secondButton.UseVisualStyleBackColor = true;
+            // 
+            // oddButton
+            // 
+            oddButton.BackgroundImage = Properties.Resources.green;
+            boardTableLayout.SetColumnSpan(oddButton, 2);
+            oddButton.Dock = DockStyle.Fill;
+            oddButton.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            oddButton.ForeColor = Color.White;
+            oddButton.Location = new Point(482, 328);
+            oddButton.Name = "oddButton";
+            oddButton.Size = new Size(96, 44);
+            oddButton.TabIndex = 77;
+            oddButton.Text = "Odd";
+            oddButton.UseVisualStyleBackColor = true;
+            // 
+            // blackButton
+            // 
+            blackButton.BackColor = Color.FromArgb(8, 8, 8);
+            blackButton.BackgroundImage = Properties.Resources.black;
+            boardTableLayout.SetColumnSpan(blackButton, 2);
+            blackButton.Dock = DockStyle.Fill;
+            blackButton.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            blackButton.Location = new Point(380, 328);
+            blackButton.Name = "blackButton";
+            blackButton.Size = new Size(96, 44);
+            blackButton.TabIndex = 76;
+            blackButton.UseVisualStyleBackColor = false;
+            // 
+            // redButton
+            // 
+            redButton.BackColor = Color.FromArgb(222, 33, 45);
+            redButton.BackgroundImage = Properties.Resources.red;
+            boardTableLayout.SetColumnSpan(redButton, 2);
+            redButton.Dock = DockStyle.Fill;
+            redButton.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            redButton.Location = new Point(278, 328);
+            redButton.Name = "redButton";
+            redButton.Size = new Size(96, 44);
+            redButton.TabIndex = 75;
+            redButton.UseVisualStyleBackColor = false;
+            // 
+            // evenButton
+            // 
+            evenButton.BackgroundImage = Properties.Resources.green;
+            boardTableLayout.SetColumnSpan(evenButton, 2);
+            evenButton.Dock = DockStyle.Fill;
+            evenButton.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            evenButton.ForeColor = Color.White;
+            evenButton.Location = new Point(176, 328);
+            evenButton.Name = "evenButton";
+            evenButton.Size = new Size(96, 44);
+            evenButton.TabIndex = 74;
+            evenButton.Text = "Even";
+            evenButton.UseVisualStyleBackColor = true;
+            // 
+            // row1Button
+            // 
+            row1Button.BackgroundImage = Properties.Resources.green;
+            row1Button.Dock = DockStyle.Fill;
+            row1Button.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            row1Button.ForeColor = Color.White;
+            row1Button.Location = new Point(686, 278);
+            row1Button.Name = "row1Button";
+            row1Button.Size = new Size(75, 44);
+            row1Button.TabIndex = 61;
+            row1Button.Text = "2 to 1";
+            row1Button.UseVisualStyleBackColor = true;
+            // 
+            // button34
+            // 
+            button34.BackColor = Color.FromArgb(222, 33, 45);
+            button34.BackgroundImage = Properties.Resources.red;
+            button34.Dock = DockStyle.Fill;
+            button34.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            button34.ForeColor = Color.White;
+            button34.Location = new Point(635, 278);
+            button34.Name = "button34";
+            button34.Size = new Size(45, 44);
+            button34.TabIndex = 60;
+            button34.Text = "34";
+            button34.UseVisualStyleBackColor = false;
+            // 
+            // button31
+            // 
+            button31.BackColor = Color.FromArgb(8, 8, 8);
+            button31.BackgroundImage = Properties.Resources.black;
+            button31.Dock = DockStyle.Fill;
+            button31.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            button31.ForeColor = Color.White;
+            button31.Location = new Point(584, 278);
+            button31.Name = "button31";
+            button31.Size = new Size(45, 44);
+            button31.TabIndex = 59;
+            button31.Text = "31";
+            button31.UseVisualStyleBackColor = false;
+            // 
+            // button28
+            // 
+            button28.BackColor = Color.FromArgb(8, 8, 8);
+            button28.BackgroundImage = Properties.Resources.black;
+            button28.Dock = DockStyle.Fill;
+            button28.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            button28.ForeColor = Color.White;
+            button28.Location = new Point(533, 278);
+            button28.Name = "button28";
+            button28.Size = new Size(45, 44);
+            button28.TabIndex = 58;
+            button28.Text = "28";
+            button28.UseVisualStyleBackColor = false;
+            // 
+            // button25
+            // 
+            button25.BackColor = Color.FromArgb(222, 33, 45);
+            button25.BackgroundImage = Properties.Resources.red;
+            button25.Dock = DockStyle.Fill;
+            button25.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            button25.ForeColor = Color.White;
+            button25.Location = new Point(482, 278);
+            button25.Name = "button25";
+            button25.Size = new Size(45, 44);
+            button25.TabIndex = 57;
+            button25.Text = "25";
+            button25.UseVisualStyleBackColor = false;
+            // 
+            // button22
+            // 
+            button22.BackColor = Color.FromArgb(8, 8, 8);
+            button22.BackgroundImage = Properties.Resources.black;
+            button22.Dock = DockStyle.Fill;
+            button22.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            button22.ForeColor = Color.White;
+            button22.Location = new Point(431, 278);
+            button22.Name = "button22";
+            button22.Size = new Size(45, 44);
+            button22.TabIndex = 56;
+            button22.Text = "22";
+            button22.UseVisualStyleBackColor = false;
+            // 
+            // button19
+            // 
+            button19.BackColor = Color.FromArgb(222, 33, 45);
+            button19.BackgroundImage = Properties.Resources.red;
+            button19.Dock = DockStyle.Fill;
+            button19.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            button19.ForeColor = Color.White;
+            button19.Location = new Point(380, 278);
+            button19.Name = "button19";
+            button19.Size = new Size(45, 44);
+            button19.TabIndex = 55;
+            button19.Text = "19";
+            button19.UseVisualStyleBackColor = false;
+            // 
+            // button16
+            // 
+            button16.BackColor = Color.FromArgb(222, 33, 45);
+            button16.BackgroundImage = Properties.Resources.red;
+            button16.Dock = DockStyle.Fill;
+            button16.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            button16.ForeColor = Color.White;
+            button16.Location = new Point(329, 278);
+            button16.Name = "button16";
+            button16.Size = new Size(45, 44);
+            button16.TabIndex = 54;
+            button16.Text = "16";
+            button16.UseVisualStyleBackColor = false;
+            // 
+            // button13
+            // 
+            button13.BackColor = Color.FromArgb(8, 8, 8);
+            button13.BackgroundImage = Properties.Resources.black;
+            button13.Dock = DockStyle.Fill;
+            button13.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            button13.ForeColor = Color.White;
+            button13.Location = new Point(278, 278);
+            button13.Name = "button13";
+            button13.Size = new Size(45, 44);
+            button13.TabIndex = 53;
+            button13.Text = "13";
+            button13.UseVisualStyleBackColor = false;
+            // 
+            // button10
+            // 
+            button10.BackColor = Color.FromArgb(8, 8, 8);
+            button10.BackgroundImage = Properties.Resources.black;
+            button10.Dock = DockStyle.Fill;
+            button10.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            button10.ForeColor = Color.White;
+            button10.Location = new Point(227, 278);
+            button10.Name = "button10";
+            button10.Size = new Size(45, 44);
+            button10.TabIndex = 52;
+            button10.Text = "10";
+            button10.UseVisualStyleBackColor = false;
+            // 
+            // button7
+            // 
+            button7.BackColor = Color.FromArgb(222, 33, 45);
+            button7.BackgroundImage = Properties.Resources.red;
+            button7.Dock = DockStyle.Fill;
+            button7.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            button7.ForeColor = Color.White;
+            button7.Location = new Point(176, 278);
+            button7.Name = "button7";
+            button7.Size = new Size(45, 44);
+            button7.TabIndex = 51;
+            button7.Text = "7";
+            button7.UseVisualStyleBackColor = false;
+            // 
+            // button4
+            // 
+            button4.BackColor = Color.FromArgb(8, 8, 8);
+            button4.BackgroundImage = Properties.Resources.black;
+            button4.Dock = DockStyle.Fill;
+            button4.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            button4.ForeColor = Color.White;
+            button4.Location = new Point(125, 278);
+            button4.Name = "button4";
+            button4.Size = new Size(45, 44);
+            button4.TabIndex = 50;
+            button4.Text = "4";
+            button4.UseVisualStyleBackColor = false;
+            // 
+            // button1
+            // 
+            button1.BackColor = Color.FromArgb(222, 33, 45);
+            button1.BackgroundImage = Properties.Resources.red;
+            button1.Dock = DockStyle.Fill;
+            button1.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            button1.ForeColor = Color.White;
+            button1.Location = new Point(74, 278);
+            button1.Name = "button1";
+            button1.Size = new Size(45, 44);
+            button1.TabIndex = 49;
+            button1.Text = "1";
+            button1.UseVisualStyleBackColor = false;
+            // 
+            // row2Button
+            // 
+            row2Button.BackgroundImage = Properties.Resources.green;
+            row2Button.Dock = DockStyle.Fill;
+            row2Button.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            row2Button.ForeColor = Color.White;
+            row2Button.Location = new Point(686, 228);
+            row2Button.Name = "row2Button";
+            row2Button.Size = new Size(75, 44);
+            row2Button.TabIndex = 48;
+            row2Button.Text = "2 to 1";
+            row2Button.UseVisualStyleBackColor = true;
+            // 
+            // button35
+            // 
+            button35.BackColor = Color.FromArgb(8, 8, 8);
+            button35.BackgroundImage = Properties.Resources.black;
+            button35.Dock = DockStyle.Fill;
+            button35.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            button35.ForeColor = Color.White;
+            button35.Location = new Point(635, 228);
+            button35.Name = "button35";
+            button35.Size = new Size(45, 44);
+            button35.TabIndex = 47;
+            button35.Text = "35";
+            button35.UseVisualStyleBackColor = false;
+            // 
+            // button32
+            // 
+            button32.BackColor = Color.FromArgb(222, 33, 45);
+            button32.BackgroundImage = Properties.Resources.red;
+            button32.Dock = DockStyle.Fill;
+            button32.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            button32.ForeColor = Color.White;
+            button32.Location = new Point(584, 228);
+            button32.Name = "button32";
+            button32.Size = new Size(45, 44);
+            button32.TabIndex = 46;
+            button32.Text = "32";
+            button32.UseVisualStyleBackColor = false;
+            // 
+            // button29
+            // 
+            button29.BackColor = Color.FromArgb(8, 8, 8);
+            button29.BackgroundImage = Properties.Resources.black;
+            button29.Dock = DockStyle.Fill;
+            button29.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            button29.ForeColor = Color.White;
+            button29.Location = new Point(533, 228);
+            button29.Name = "button29";
+            button29.Size = new Size(45, 44);
+            button29.TabIndex = 45;
+            button29.Text = "29";
+            button29.UseVisualStyleBackColor = false;
+            // 
+            // button26
+            // 
+            button26.BackColor = Color.FromArgb(8, 8, 8);
+            button26.BackgroundImage = Properties.Resources.black;
+            button26.Dock = DockStyle.Fill;
+            button26.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            button26.ForeColor = Color.White;
+            button26.Location = new Point(482, 228);
+            button26.Name = "button26";
+            button26.Size = new Size(45, 44);
+            button26.TabIndex = 44;
+            button26.Text = "26";
+            button26.UseVisualStyleBackColor = false;
+            // 
+            // button23
+            // 
+            button23.BackColor = Color.FromArgb(222, 33, 45);
+            button23.BackgroundImage = Properties.Resources.red;
+            button23.Dock = DockStyle.Fill;
+            button23.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            button23.ForeColor = Color.White;
+            button23.Location = new Point(431, 228);
+            button23.Name = "button23";
+            button23.Size = new Size(45, 44);
+            button23.TabIndex = 43;
+            button23.Text = "23";
+            button23.UseVisualStyleBackColor = false;
+            // 
+            // button20
+            // 
+            button20.BackColor = Color.FromArgb(8, 8, 8);
+            button20.BackgroundImage = Properties.Resources.black;
+            button20.Dock = DockStyle.Fill;
+            button20.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            button20.ForeColor = Color.White;
+            button20.Location = new Point(380, 228);
+            button20.Name = "button20";
+            button20.Size = new Size(45, 44);
+            button20.TabIndex = 42;
+            button20.Text = "20";
+            button20.UseVisualStyleBackColor = false;
+            // 
+            // button17
+            // 
+            button17.BackColor = Color.FromArgb(8, 8, 8);
+            button17.BackgroundImage = Properties.Resources.black;
+            button17.Dock = DockStyle.Fill;
+            button17.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            button17.ForeColor = Color.White;
+            button17.Location = new Point(329, 228);
+            button17.Name = "button17";
+            button17.Size = new Size(45, 44);
+            button17.TabIndex = 41;
+            button17.Text = "17";
+            button17.UseVisualStyleBackColor = false;
+            // 
+            // button14
+            // 
+            button14.BackColor = Color.FromArgb(222, 33, 45);
+            button14.BackgroundImage = Properties.Resources.red;
+            button14.Dock = DockStyle.Fill;
+            button14.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            button14.ForeColor = Color.White;
+            button14.Location = new Point(278, 228);
+            button14.Name = "button14";
+            button14.Size = new Size(45, 44);
+            button14.TabIndex = 40;
+            button14.Text = "14";
+            button14.UseVisualStyleBackColor = false;
+            // 
+            // button11
+            // 
+            button11.BackColor = Color.FromArgb(8, 8, 8);
+            button11.BackgroundImage = Properties.Resources.black;
+            button11.Dock = DockStyle.Fill;
+            button11.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            button11.ForeColor = Color.White;
+            button11.Location = new Point(227, 228);
+            button11.Name = "button11";
+            button11.Size = new Size(45, 44);
+            button11.TabIndex = 39;
+            button11.Text = "11";
+            button11.UseVisualStyleBackColor = false;
+            // 
+            // button8
+            // 
+            button8.BackColor = Color.FromArgb(8, 8, 8);
+            button8.BackgroundImage = Properties.Resources.black;
+            button8.Dock = DockStyle.Fill;
+            button8.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            button8.ForeColor = Color.White;
+            button8.Location = new Point(176, 228);
+            button8.Name = "button8";
+            button8.Size = new Size(45, 44);
+            button8.TabIndex = 38;
+            button8.Text = "8";
+            button8.UseVisualStyleBackColor = false;
+            // 
+            // button5
+            // 
+            button5.BackColor = Color.FromArgb(222, 33, 45);
+            button5.BackgroundImage = Properties.Resources.red;
+            button5.Dock = DockStyle.Fill;
+            button5.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            button5.ForeColor = Color.White;
+            button5.Location = new Point(125, 228);
+            button5.Name = "button5";
+            button5.Size = new Size(45, 44);
+            button5.TabIndex = 37;
+            button5.Text = "5";
+            button5.UseVisualStyleBackColor = false;
+            // 
+            // button2
+            // 
+            button2.BackColor = Color.FromArgb(222, 33, 45);
+            button2.BackgroundImage = Properties.Resources.black;
+            button2.Dock = DockStyle.Fill;
+            button2.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            button2.ForeColor = Color.White;
+            button2.Location = new Point(74, 228);
+            button2.Name = "button2";
+            button2.Size = new Size(45, 44);
+            button2.TabIndex = 36;
+            button2.Text = "2";
+            button2.UseVisualStyleBackColor = false;
+            // 
+            // row3Button
+            // 
+            row3Button.BackgroundImage = Properties.Resources.green;
+            row3Button.Dock = DockStyle.Fill;
+            row3Button.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            row3Button.ForeColor = Color.White;
+            row3Button.Location = new Point(686, 178);
+            row3Button.Name = "row3Button";
+            row3Button.Size = new Size(75, 44);
+            row3Button.TabIndex = 35;
+            row3Button.Text = "2 to 1";
+            row3Button.UseVisualStyleBackColor = true;
+            // 
+            // button36
+            // 
+            button36.BackColor = Color.FromArgb(222, 33, 45);
+            button36.BackgroundImage = Properties.Resources.red;
+            button36.Dock = DockStyle.Fill;
+            button36.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            button36.ForeColor = Color.White;
+            button36.Location = new Point(635, 178);
+            button36.Name = "button36";
+            button36.Size = new Size(45, 44);
+            button36.TabIndex = 34;
+            button36.Text = "36";
+            button36.UseVisualStyleBackColor = false;
+            // 
+            // button33
+            // 
+            button33.BackColor = Color.FromArgb(8, 8, 8);
+            button33.BackgroundImage = Properties.Resources.black;
+            button33.Dock = DockStyle.Fill;
+            button33.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            button33.ForeColor = Color.White;
+            button33.Location = new Point(584, 178);
+            button33.Name = "button33";
+            button33.Size = new Size(45, 44);
+            button33.TabIndex = 33;
+            button33.Text = "33";
+            button33.UseVisualStyleBackColor = false;
+            // 
+            // button30
+            // 
+            button30.BackColor = Color.FromArgb(222, 33, 45);
+            button30.BackgroundImage = Properties.Resources.red;
+            button30.Dock = DockStyle.Fill;
+            button30.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            button30.ForeColor = Color.White;
+            button30.Location = new Point(533, 178);
+            button30.Name = "button30";
+            button30.Size = new Size(45, 44);
+            button30.TabIndex = 32;
+            button30.Text = "30";
+            button30.UseVisualStyleBackColor = false;
+            // 
+            // button27
+            // 
+            button27.BackColor = Color.FromArgb(222, 33, 45);
+            button27.BackgroundImage = Properties.Resources.red;
+            button27.Dock = DockStyle.Fill;
+            button27.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            button27.ForeColor = Color.White;
+            button27.Location = new Point(482, 178);
+            button27.Name = "button27";
+            button27.Size = new Size(45, 44);
+            button27.TabIndex = 31;
+            button27.Text = "27";
+            button27.UseVisualStyleBackColor = false;
+            // 
+            // button24
+            // 
+            button24.BackColor = Color.FromArgb(8, 8, 8);
+            button24.BackgroundImage = Properties.Resources.black;
+            button24.Dock = DockStyle.Fill;
+            button24.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            button24.ForeColor = Color.White;
+            button24.Location = new Point(431, 178);
+            button24.Name = "button24";
+            button24.Size = new Size(45, 44);
+            button24.TabIndex = 30;
+            button24.Text = "24";
+            button24.UseVisualStyleBackColor = false;
+            // 
+            // button21
+            // 
+            button21.BackColor = Color.FromArgb(222, 33, 45);
+            button21.BackgroundImage = Properties.Resources.red;
+            button21.Dock = DockStyle.Fill;
+            button21.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            button21.ForeColor = Color.White;
+            button21.Location = new Point(380, 178);
+            button21.Name = "button21";
+            button21.Size = new Size(45, 44);
+            button21.TabIndex = 29;
+            button21.Text = "21";
+            button21.UseVisualStyleBackColor = false;
+            // 
+            // button18
+            // 
+            button18.BackColor = Color.FromArgb(222, 33, 45);
+            button18.BackgroundImage = Properties.Resources.red;
+            button18.Dock = DockStyle.Fill;
+            button18.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            button18.ForeColor = Color.White;
+            button18.Location = new Point(329, 178);
+            button18.Name = "button18";
+            button18.Size = new Size(45, 44);
+            button18.TabIndex = 28;
+            button18.Text = "18";
+            button18.UseVisualStyleBackColor = false;
+            // 
+            // button15
+            // 
+            button15.BackColor = Color.FromArgb(8, 8, 8);
+            button15.BackgroundImage = Properties.Resources.black;
+            button15.Dock = DockStyle.Fill;
+            button15.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            button15.ForeColor = Color.White;
+            button15.Location = new Point(278, 178);
+            button15.Name = "button15";
+            button15.Size = new Size(45, 44);
+            button15.TabIndex = 27;
+            button15.Text = "15";
+            button15.UseVisualStyleBackColor = false;
+            // 
+            // button12
+            // 
+            button12.BackColor = Color.FromArgb(222, 33, 45);
+            button12.BackgroundImage = Properties.Resources.red;
+            button12.Dock = DockStyle.Fill;
+            button12.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            button12.ForeColor = Color.White;
+            button12.Location = new Point(227, 178);
+            button12.Name = "button12";
+            button12.Size = new Size(45, 44);
+            button12.TabIndex = 26;
+            button12.Text = "12";
+            button12.UseVisualStyleBackColor = false;
+            // 
+            // button9
+            // 
+            button9.BackColor = Color.FromArgb(222, 33, 45);
+            button9.BackgroundImage = Properties.Resources.red;
+            button9.Dock = DockStyle.Fill;
+            button9.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            button9.ForeColor = Color.White;
+            button9.Location = new Point(176, 178);
+            button9.Name = "button9";
+            button9.Size = new Size(45, 44);
+            button9.TabIndex = 25;
+            button9.Text = "9";
+            button9.UseVisualStyleBackColor = false;
+            // 
+            // button6
+            // 
+            button6.BackColor = Color.FromArgb(8, 8, 8);
+            button6.BackgroundImage = Properties.Resources.black;
+            button6.Dock = DockStyle.Fill;
+            button6.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            button6.ForeColor = Color.White;
+            button6.Location = new Point(125, 178);
+            button6.Name = "button6";
+            button6.Size = new Size(45, 44);
+            button6.TabIndex = 24;
+            button6.Text = "6";
+            button6.UseVisualStyleBackColor = false;
+            // 
+            // col3Button
+            // 
+            col3Button.BackgroundImage = Properties.Resources.green;
+            boardTableLayout.SetColumnSpan(col3Button, 4);
+            col3Button.Dock = DockStyle.Fill;
+            col3Button.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            col3Button.ForeColor = Color.White;
+            col3Button.Location = new Point(482, 128);
+            col3Button.Name = "col3Button";
+            col3Button.Size = new Size(198, 44);
+            col3Button.TabIndex = 5;
+            col3Button.Text = "25 - 36";
+            col3Button.UseVisualStyleBackColor = true;
+            // 
+            // col2Button
+            // 
+            col2Button.BackgroundImage = Properties.Resources.green;
+            boardTableLayout.SetColumnSpan(col2Button, 4);
+            col2Button.Dock = DockStyle.Fill;
+            col2Button.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            col2Button.ForeColor = Color.White;
+            col2Button.Location = new Point(278, 128);
+            col2Button.Name = "col2Button";
+            col2Button.Size = new Size(198, 44);
+            col2Button.TabIndex = 4;
+            col2Button.Text = "13 - 24";
+            col2Button.UseVisualStyleBackColor = true;
+            // 
+            // col1Button
+            // 
+            col1Button.BackgroundImage = Properties.Resources.green;
+            boardTableLayout.SetColumnSpan(col1Button, 4);
+            col1Button.Dock = DockStyle.Fill;
+            col1Button.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            col1Button.ForeColor = Color.White;
+            col1Button.Location = new Point(74, 128);
+            col1Button.Name = "col1Button";
+            col1Button.Size = new Size(198, 44);
+            col1Button.TabIndex = 0;
+            col1Button.Text = "1 - 12";
+            col1Button.UseVisualStyleBackColor = true;
+            // 
+            // button0
+            // 
+            button0.BackgroundImage = Properties.Resources.green;
+            button0.Dock = DockStyle.Fill;
+            button0.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            button0.ForeColor = Color.White;
+            button0.Location = new Point(23, 178);
+            button0.Name = "button0";
+            boardTableLayout.SetRowSpan(button0, 3);
+            button0.Size = new Size(45, 144);
+            button0.TabIndex = 6;
+            button0.Text = "0";
+            button0.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            button3.BackColor = Color.FromArgb(222, 33, 45);
+            button3.BackgroundImage = Properties.Resources.red;
+            button3.Dock = DockStyle.Fill;
+            button3.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            button3.ForeColor = Color.White;
+            button3.Location = new Point(74, 178);
+            button3.Name = "button3";
+            button3.Size = new Size(45, 44);
+            button3.TabIndex = 7;
+            button3.Text = "3";
+            button3.UseVisualStyleBackColor = false;
+            // 
+            // firstButton
+            // 
+            firstButton.BackgroundImage = Properties.Resources.green;
+            boardTableLayout.SetColumnSpan(firstButton, 2);
+            firstButton.Dock = DockStyle.Fill;
+            firstButton.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            firstButton.ForeColor = Color.White;
+            firstButton.Location = new Point(74, 328);
+            firstButton.Name = "firstButton";
+            firstButton.Size = new Size(96, 44);
+            firstButton.TabIndex = 62;
+            firstButton.Text = "1 - 18";
+            firstButton.UseVisualStyleBackColor = true;
+            // 
+            // tableLayoutPanel2
+            // 
+            tableLayoutPanel2.ColumnCount = 5;
+            boardTableLayout.SetColumnSpan(tableLayoutPanel2, 12);
+            tableLayoutPanel2.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 20F));
+            tableLayoutPanel2.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 33.3333321F));
+            tableLayoutPanel2.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 33.3333321F));
+            tableLayoutPanel2.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 33.3333321F));
+            tableLayoutPanel2.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 20F));
+            tableLayoutPanel2.Controls.Add(totalLabel, 3, 1);
+            tableLayoutPanel2.Controls.Add(betLabel, 2, 1);
+            tableLayoutPanel2.Controls.Add(moneyLabel, 1, 1);
+            tableLayoutPanel2.Dock = DockStyle.Fill;
+            tableLayoutPanel2.Location = new Point(74, 378);
+            tableLayoutPanel2.Name = "tableLayoutPanel2";
+            tableLayoutPanel2.RowCount = 3;
+            tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
+            tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
+            tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
+            tableLayoutPanel2.Size = new Size(606, 120);
+            tableLayoutPanel2.TabIndex = 80;
+            // 
+            // totalLabel
+            // 
+            totalLabel.AutoSize = true;
+            totalLabel.Dock = DockStyle.Fill;
+            totalLabel.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            totalLabel.Location = new Point(399, 20);
+            totalLabel.Name = "totalLabel";
+            totalLabel.Size = new Size(182, 80);
+            totalLabel.TabIndex = 87;
+            totalLabel.Text = "Total: 0$";
+            // 
+            // betLabel
+            // 
+            betLabel.AutoSize = true;
+            betLabel.Dock = DockStyle.Fill;
+            betLabel.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            betLabel.Location = new Point(211, 20);
+            betLabel.Name = "betLabel";
+            betLabel.Size = new Size(182, 80);
+            betLabel.TabIndex = 86;
+            betLabel.Text = "Bet: 100$";
+            // 
+            // moneyLabel
+            // 
+            moneyLabel.AutoSize = true;
+            moneyLabel.Dock = DockStyle.Fill;
+            moneyLabel.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            moneyLabel.Location = new Point(23, 20);
+            moneyLabel.Name = "moneyLabel";
+            moneyLabel.Size = new Size(182, 80);
+            moneyLabel.TabIndex = 79;
+            moneyLabel.Text = "Money: 1000$";
+            // 
+            // lablesTableLayout
+            // 
+            lablesTableLayout.ColumnCount = 5;
+            boardTableLayout.SetColumnSpan(lablesTableLayout, 12);
+            lablesTableLayout.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 20F));
+            lablesTableLayout.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 35F));
+            lablesTableLayout.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 10F));
+            lablesTableLayout.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 55F));
+            lablesTableLayout.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 20F));
+            lablesTableLayout.Controls.Add(wheelLabel, 1, 1);
+            lablesTableLayout.Controls.Add(messageLabel, 3, 1);
+            lablesTableLayout.Dock = DockStyle.Fill;
+            lablesTableLayout.Location = new Point(74, 3);
+            lablesTableLayout.Name = "lablesTableLayout";
+            lablesTableLayout.RowCount = 3;
+            lablesTableLayout.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
+            lablesTableLayout.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
+            lablesTableLayout.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
+            lablesTableLayout.Size = new Size(606, 119);
+            lablesTableLayout.TabIndex = 81;
+            // 
+            // wheelLabel
+            // 
+            wheelLabel.AutoSize = true;
+            wheelLabel.Dock = DockStyle.Fill;
+            wheelLabel.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            wheelLabel.Location = new Point(23, 20);
+            wheelLabel.Name = "wheelLabel";
+            wheelLabel.Size = new Size(192, 79);
+            wheelLabel.TabIndex = 0;
+            wheelLabel.Text = "Wheel: ";
+            // 
+            // messageLabel
+            // 
+            messageLabel.AutoSize = true;
+            messageLabel.Dock = DockStyle.Fill;
+            messageLabel.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            messageLabel.Location = new Point(277, 20);
+            messageLabel.Name = "messageLabel";
+            messageLabel.Size = new Size(305, 79);
+            messageLabel.TabIndex = 1;
+            // 
+            // buttonsTableLayout
+            // 
+            buttonsTableLayout.ColumnCount = 4;
+            roulleteTableLayout.SetColumnSpan(buttonsTableLayout, 4);
+            buttonsTableLayout.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 12.5F));
+            buttonsTableLayout.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 12.5F));
+            buttonsTableLayout.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
+            buttonsTableLayout.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 25F));
+            buttonsTableLayout.Controls.Add(resetButton, 3, 0);
+            buttonsTableLayout.Controls.Add(betDownButton, 0, 0);
+            buttonsTableLayout.Controls.Add(spinButton, 2, 0);
+            buttonsTableLayout.Controls.Add(betUpButton, 1, 0);
+            buttonsTableLayout.Dock = DockStyle.Fill;
+            buttonsTableLayout.Location = new Point(23, 530);
+            buttonsTableLayout.Name = "buttonsTableLayout";
+            buttonsTableLayout.RowCount = 1;
+            buttonsTableLayout.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
+            buttonsTableLayout.Size = new Size(1212, 50);
+            buttonsTableLayout.TabIndex = 2;
+            // 
+            // resetButton
+            // 
+            resetButton.AutoSizeMode = AutoSizeMode.GrowAndShrink;
+            resetButton.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            resetButton.Depth = 0;
+            resetButton.Dock = DockStyle.Fill;
+            resetButton.HighEmphasis = true;
+            resetButton.Icon = null;
+            resetButton.Location = new Point(912, 6);
+            resetButton.Margin = new Padding(4, 6, 4, 6);
+            resetButton.MouseState = MaterialSkin.MouseState.HOVER;
+            resetButton.Name = "resetButton";
+            resetButton.NoAccentTextColor = Color.Empty;
+            resetButton.Size = new Size(296, 38);
+            resetButton.TabIndex = 4;
+            resetButton.Text = "Reset";
+            resetButton.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            resetButton.UseAccentColor = false;
+            resetButton.UseVisualStyleBackColor = true;
+            // 
+            // betDownButton
+            // 
+            betDownButton.AutoSizeMode = AutoSizeMode.GrowAndShrink;
+            betDownButton.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            betDownButton.Depth = 0;
+            betDownButton.Dock = DockStyle.Fill;
+            betDownButton.HighEmphasis = true;
+            betDownButton.Icon = null;
+            betDownButton.Location = new Point(4, 6);
+            betDownButton.Margin = new Padding(4, 6, 4, 6);
+            betDownButton.MouseState = MaterialSkin.MouseState.HOVER;
+            betDownButton.Name = "betDownButton";
+            betDownButton.NoAccentTextColor = Color.Empty;
+            betDownButton.Size = new Size(143, 38);
+            betDownButton.TabIndex = 3;
+            betDownButton.Text = "Bet Down";
+            betDownButton.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            betDownButton.UseAccentColor = false;
+            betDownButton.UseVisualStyleBackColor = true;
+            // 
+            // spinButton
+            // 
+            spinButton.AutoSizeMode = AutoSizeMode.GrowAndShrink;
+            spinButton.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            spinButton.Depth = 0;
+            spinButton.Dock = DockStyle.Fill;
+            spinButton.HighEmphasis = true;
+            spinButton.Icon = null;
+            spinButton.Location = new Point(306, 6);
+            spinButton.Margin = new Padding(4, 6, 4, 6);
+            spinButton.MouseState = MaterialSkin.MouseState.HOVER;
+            spinButton.Name = "spinButton";
+            spinButton.NoAccentTextColor = Color.Empty;
+            spinButton.Size = new Size(598, 38);
+            spinButton.TabIndex = 2;
+            spinButton.Text = "Spin The Wheel";
+            spinButton.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            spinButton.UseAccentColor = false;
+            spinButton.UseVisualStyleBackColor = true;
+            // 
+            // betUpButton
+            // 
+            betUpButton.AutoSizeMode = AutoSizeMode.GrowAndShrink;
+            betUpButton.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            betUpButton.Depth = 0;
+            betUpButton.Dock = DockStyle.Fill;
+            betUpButton.HighEmphasis = true;
+            betUpButton.Icon = null;
+            betUpButton.Location = new Point(155, 6);
+            betUpButton.Margin = new Padding(4, 6, 4, 6);
+            betUpButton.MouseState = MaterialSkin.MouseState.HOVER;
+            betUpButton.Name = "betUpButton";
+            betUpButton.NoAccentTextColor = Color.Empty;
+            betUpButton.Size = new Size(143, 38);
+            betUpButton.TabIndex = 1;
+            betUpButton.Text = "Bet Up";
+            betUpButton.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            betUpButton.UseAccentColor = false;
+            betUpButton.UseVisualStyleBackColor = true;
+            // 
+            // wheelTableLayout
+            // 
+            wheelTableLayout.ColumnCount = 3;
+            roulleteTableLayout.SetColumnSpan(wheelTableLayout, 2);
+            wheelTableLayout.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 20F));
+            wheelTableLayout.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100F));
+            wheelTableLayout.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 20F));
+            wheelTableLayout.Controls.Add(wheelPictureBox, 1, 1);
+            wheelTableLayout.Dock = DockStyle.Fill;
+            wheelTableLayout.Location = new Point(23, 23);
+            wheelTableLayout.Name = "wheelTableLayout";
+            wheelTableLayout.RowCount = 3;
+            wheelTableLayout.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
+            wheelTableLayout.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
+            wheelTableLayout.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
+            wheelTableLayout.Size = new Size(420, 501);
+            wheelTableLayout.TabIndex = 3;
+            // 
+            // wheelPictureBox
+            // 
+            wheelPictureBox.Dock = DockStyle.Fill;
+            wheelPictureBox.Image = Properties.Resources.roulette;
+            wheelPictureBox.Location = new Point(23, 23);
+            wheelPictureBox.Name = "wheelPictureBox";
+            wheelPictureBox.Size = new Size(374, 455);
+            wheelPictureBox.SizeMode = PictureBoxSizeMode.Zoom;
+            wheelPictureBox.TabIndex = 0;
+            wheelPictureBox.TabStop = false;
             // 
             // Machines
             // 
@@ -1559,26 +2247,6 @@
             Machines.Text = "Machines";
             Machines.UseVisualStyleBackColor = true;
             // 
-            // Shop
-            // 
-            Shop.ImageKey = "chips.png";
-            Shop.Location = new Point(4, 39);
-            Shop.Name = "Shop";
-            Shop.Size = new Size(1266, 610);
-            Shop.TabIndex = 5;
-            Shop.Text = "Shop";
-            Shop.UseVisualStyleBackColor = true;
-            // 
-            // Settings
-            // 
-            Settings.ImageKey = "settings.png";
-            Settings.Location = new Point(4, 39);
-            Settings.Name = "Settings";
-            Settings.Size = new Size(1266, 610);
-            Settings.TabIndex = 4;
-            Settings.Text = "Settings";
-            Settings.UseVisualStyleBackColor = true;
-            // 
             // tableLayoutPanel4
             // 
             tableLayoutPanel4.ColumnCount = 3;
@@ -1589,6 +2257,7 @@
             tableLayoutPanel4.Location = new Point(0, 0);
             tableLayoutPanel4.Name = "tableLayoutPanel4";
             tableLayoutPanel4.RowCount = 1;
+            tableLayoutPanel4.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
             tableLayoutPanel4.Size = new Size(200, 100);
             tableLayoutPanel4.TabIndex = 0;
             // 
@@ -1695,6 +2364,8 @@
             tableLayoutPanel6.Location = new Point(0, 0);
             tableLayoutPanel6.Name = "tableLayoutPanel6";
             tableLayoutPanel6.RowCount = 2;
+            tableLayoutPanel6.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
+            tableLayoutPanel6.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
             tableLayoutPanel6.Size = new Size(200, 100);
             tableLayoutPanel6.TabIndex = 0;
             // 
@@ -1706,12 +2377,12 @@
             materialButton17.Dock = DockStyle.Fill;
             materialButton17.HighEmphasis = true;
             materialButton17.Icon = null;
-            materialButton17.Location = new Point(104, 6);
+            materialButton17.Location = new Point(104, 26);
             materialButton17.Margin = new Padding(4, 6, 4, 6);
             materialButton17.MouseState = MaterialSkin.MouseState.HOVER;
             materialButton17.Name = "materialButton17";
             materialButton17.NoAccentTextColor = Color.Empty;
-            materialButton17.Size = new Size(92, 88);
+            materialButton17.Size = new Size(92, 68);
             materialButton17.TabIndex = 3;
             materialButton17.Text = "materialButton17";
             materialButton17.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
@@ -1738,6 +2409,291 @@
             materialButton18.UseAccentColor = false;
             materialButton18.UseVisualStyleBackColor = true;
             // 
+            // player1Card2
+            // 
+            player1Card2.BackColor = Color.Transparent;
+            player1Card2.BackgroundImageLayout = ImageLayout.Zoom;
+            player1Card2.Dock = DockStyle.Fill;
+            player1Card2.FlatAppearance.BorderSize = 0;
+            player1Card2.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            player1Card2.FlatAppearance.MouseOverBackColor = Color.Transparent;
+            player1Card2.FlatStyle = FlatStyle.Flat;
+            player1Card2.Location = new Point(138, 67);
+            player1Card2.Name = "player1Card2";
+            player1Card2.Size = new Size(114, 83);
+            player1Card2.TabIndex = 16;
+            player1Card2.UseVisualStyleBackColor = false;
+            // 
+            // player1Card3
+            // 
+            player1Card3.BackColor = Color.Transparent;
+            player1Card3.BackgroundImageLayout = ImageLayout.Zoom;
+            player1Card3.Dock = DockStyle.Fill;
+            player1Card3.FlatAppearance.BorderSize = 0;
+            player1Card3.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            player1Card3.FlatAppearance.MouseOverBackColor = Color.Transparent;
+            player1Card3.FlatStyle = FlatStyle.Flat;
+            player1Card3.Location = new Point(18, 156);
+            player1Card3.Name = "player1Card3";
+            player1Card3.Size = new Size(114, 83);
+            player1Card3.TabIndex = 17;
+            player1Card3.UseVisualStyleBackColor = false;
+            // 
+            // player1Card4
+            // 
+            player1Card4.BackColor = Color.Transparent;
+            player1Card4.BackgroundImageLayout = ImageLayout.Zoom;
+            player1Card4.Dock = DockStyle.Fill;
+            player1Card4.FlatAppearance.BorderSize = 0;
+            player1Card4.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            player1Card4.FlatAppearance.MouseOverBackColor = Color.Transparent;
+            player1Card4.FlatStyle = FlatStyle.Flat;
+            player1Card4.Location = new Point(138, 156);
+            player1Card4.Name = "player1Card4";
+            player1Card4.Size = new Size(114, 83);
+            player1Card4.TabIndex = 18;
+            player1Card4.UseVisualStyleBackColor = false;
+            // 
+            // player2Card3
+            // 
+            player2Card3.BackColor = Color.Transparent;
+            player2Card3.BackgroundImageLayout = ImageLayout.Zoom;
+            player2Card3.Dock = DockStyle.Fill;
+            player2Card3.FlatAppearance.BorderSize = 0;
+            player2Card3.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            player2Card3.FlatAppearance.MouseOverBackColor = Color.Transparent;
+            player2Card3.FlatStyle = FlatStyle.Flat;
+            player2Card3.Location = new Point(18, 156);
+            player2Card3.Name = "player2Card3";
+            player2Card3.Size = new Size(114, 83);
+            player2Card3.TabIndex = 19;
+            player2Card3.UseVisualStyleBackColor = false;
+            // 
+            // player2Card1
+            // 
+            player2Card1.BackColor = Color.Transparent;
+            player2Card1.BackgroundImageLayout = ImageLayout.Zoom;
+            player2Card1.Dock = DockStyle.Fill;
+            player2Card1.FlatAppearance.BorderSize = 0;
+            player2Card1.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            player2Card1.FlatAppearance.MouseOverBackColor = Color.Transparent;
+            player2Card1.FlatStyle = FlatStyle.Flat;
+            player2Card1.Location = new Point(18, 67);
+            player2Card1.Name = "player2Card1";
+            player2Card1.Size = new Size(114, 83);
+            player2Card1.TabIndex = 20;
+            player2Card1.UseVisualStyleBackColor = false;
+            // 
+            // player2Card2
+            // 
+            player2Card2.BackColor = Color.Transparent;
+            player2Card2.BackgroundImageLayout = ImageLayout.Zoom;
+            player2Card2.Dock = DockStyle.Fill;
+            player2Card2.FlatAppearance.BorderSize = 0;
+            player2Card2.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            player2Card2.FlatAppearance.MouseOverBackColor = Color.Transparent;
+            player2Card2.FlatStyle = FlatStyle.Flat;
+            player2Card2.Location = new Point(138, 67);
+            player2Card2.Name = "player2Card2";
+            player2Card2.Size = new Size(114, 83);
+            player2Card2.TabIndex = 21;
+            player2Card2.UseVisualStyleBackColor = false;
+            // 
+            // player2Card4
+            // 
+            player2Card4.BackColor = Color.Transparent;
+            player2Card4.BackgroundImageLayout = ImageLayout.Zoom;
+            player2Card4.Dock = DockStyle.Fill;
+            player2Card4.FlatAppearance.BorderSize = 0;
+            player2Card4.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            player2Card4.FlatAppearance.MouseOverBackColor = Color.Transparent;
+            player2Card4.FlatStyle = FlatStyle.Flat;
+            player2Card4.Location = new Point(138, 156);
+            player2Card4.Name = "player2Card4";
+            player2Card4.Size = new Size(114, 83);
+            player2Card4.TabIndex = 22;
+            player2Card4.UseVisualStyleBackColor = false;
+            // 
+            // player3Card3
+            // 
+            player3Card3.BackColor = Color.Transparent;
+            player3Card3.BackgroundImageLayout = ImageLayout.Zoom;
+            player3Card3.Dock = DockStyle.Fill;
+            player3Card3.FlatAppearance.BorderSize = 0;
+            player3Card3.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            player3Card3.FlatAppearance.MouseOverBackColor = Color.Transparent;
+            player3Card3.FlatStyle = FlatStyle.Flat;
+            player3Card3.Location = new Point(18, 156);
+            player3Card3.Name = "player3Card3";
+            player3Card3.Size = new Size(114, 83);
+            player3Card3.TabIndex = 19;
+            player3Card3.UseVisualStyleBackColor = false;
+            // 
+            // player3Card1
+            // 
+            player3Card1.BackColor = Color.Transparent;
+            player3Card1.BackgroundImageLayout = ImageLayout.Zoom;
+            player3Card1.Dock = DockStyle.Fill;
+            player3Card1.FlatAppearance.BorderSize = 0;
+            player3Card1.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            player3Card1.FlatAppearance.MouseOverBackColor = Color.Transparent;
+            player3Card1.FlatStyle = FlatStyle.Flat;
+            player3Card1.Location = new Point(18, 67);
+            player3Card1.Name = "player3Card1";
+            player3Card1.Size = new Size(114, 83);
+            player3Card1.TabIndex = 20;
+            player3Card1.UseVisualStyleBackColor = false;
+            // 
+            // player3Card2
+            // 
+            player3Card2.BackColor = Color.Transparent;
+            player3Card2.BackgroundImageLayout = ImageLayout.Zoom;
+            player3Card2.Dock = DockStyle.Fill;
+            player3Card2.FlatAppearance.BorderSize = 0;
+            player3Card2.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            player3Card2.FlatAppearance.MouseOverBackColor = Color.Transparent;
+            player3Card2.FlatStyle = FlatStyle.Flat;
+            player3Card2.Location = new Point(138, 67);
+            player3Card2.Name = "player3Card2";
+            player3Card2.Size = new Size(114, 83);
+            player3Card2.TabIndex = 21;
+            player3Card2.UseVisualStyleBackColor = false;
+            // 
+            // player3Card4
+            // 
+            player3Card4.BackColor = Color.Transparent;
+            player3Card4.BackgroundImageLayout = ImageLayout.Zoom;
+            player3Card4.Dock = DockStyle.Fill;
+            player3Card4.FlatAppearance.BorderSize = 0;
+            player3Card4.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            player3Card4.FlatAppearance.MouseOverBackColor = Color.Transparent;
+            player3Card4.FlatStyle = FlatStyle.Flat;
+            player3Card4.Location = new Point(138, 156);
+            player3Card4.Name = "player3Card4";
+            player3Card4.Size = new Size(114, 83);
+            player3Card4.TabIndex = 22;
+            player3Card4.UseVisualStyleBackColor = false;
+            // 
+            // player4Card1
+            // 
+            player4Card1.BackColor = Color.Transparent;
+            player4Card1.BackgroundImageLayout = ImageLayout.Zoom;
+            player4Card1.Dock = DockStyle.Fill;
+            player4Card1.FlatAppearance.BorderSize = 0;
+            player4Card1.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            player4Card1.FlatAppearance.MouseOverBackColor = Color.Transparent;
+            player4Card1.FlatStyle = FlatStyle.Flat;
+            player4Card1.Location = new Point(18, 67);
+            player4Card1.Name = "player4Card1";
+            player4Card1.Size = new Size(114, 83);
+            player4Card1.TabIndex = 23;
+            player4Card1.UseVisualStyleBackColor = false;
+            // 
+            // player4Card2
+            // 
+            player4Card2.BackColor = Color.Transparent;
+            player4Card2.BackgroundImageLayout = ImageLayout.Zoom;
+            player4Card2.Dock = DockStyle.Fill;
+            player4Card2.FlatAppearance.BorderSize = 0;
+            player4Card2.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            player4Card2.FlatAppearance.MouseOverBackColor = Color.Transparent;
+            player4Card2.FlatStyle = FlatStyle.Flat;
+            player4Card2.Location = new Point(138, 67);
+            player4Card2.Name = "player4Card2";
+            player4Card2.Size = new Size(114, 83);
+            player4Card2.TabIndex = 24;
+            player4Card2.UseVisualStyleBackColor = false;
+            // 
+            // player4Card3
+            // 
+            player4Card3.BackColor = Color.Transparent;
+            player4Card3.BackgroundImageLayout = ImageLayout.Zoom;
+            player4Card3.Dock = DockStyle.Fill;
+            player4Card3.FlatAppearance.BorderSize = 0;
+            player4Card3.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            player4Card3.FlatAppearance.MouseOverBackColor = Color.Transparent;
+            player4Card3.FlatStyle = FlatStyle.Flat;
+            player4Card3.Location = new Point(18, 156);
+            player4Card3.Name = "player4Card3";
+            player4Card3.Size = new Size(114, 83);
+            player4Card3.TabIndex = 25;
+            player4Card3.UseVisualStyleBackColor = false;
+            // 
+            // player4Card4
+            // 
+            player4Card4.BackColor = Color.Transparent;
+            player4Card4.BackgroundImageLayout = ImageLayout.Zoom;
+            player4Card4.Dock = DockStyle.Fill;
+            player4Card4.FlatAppearance.BorderSize = 0;
+            player4Card4.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            player4Card4.FlatAppearance.MouseOverBackColor = Color.Transparent;
+            player4Card4.FlatStyle = FlatStyle.Flat;
+            player4Card4.Location = new Point(138, 156);
+            player4Card4.Name = "player4Card4";
+            player4Card4.Size = new Size(114, 83);
+            player4Card4.TabIndex = 26;
+            player4Card4.UseVisualStyleBackColor = false;
+            // 
+            // houseCard1
+            // 
+            houseCard1.BackColor = Color.Transparent;
+            houseCard1.BackgroundImageLayout = ImageLayout.Zoom;
+            houseCard1.Dock = DockStyle.Fill;
+            houseCard1.FlatAppearance.BorderSize = 0;
+            houseCard1.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            houseCard1.FlatAppearance.MouseOverBackColor = Color.Transparent;
+            houseCard1.FlatStyle = FlatStyle.Flat;
+            houseCard1.Location = new Point(3, 51);
+            houseCard1.Name = "houseCard1";
+            houseCard1.Size = new Size(145, 147);
+            houseCard1.TabIndex = 19;
+            houseCard1.UseVisualStyleBackColor = false;
+            // 
+            // houseCard3
+            // 
+            houseCard3.BackColor = Color.Transparent;
+            houseCard3.BackgroundImageLayout = ImageLayout.Zoom;
+            houseCard3.Dock = DockStyle.Fill;
+            houseCard3.FlatAppearance.BorderSize = 0;
+            houseCard3.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            houseCard3.FlatAppearance.MouseOverBackColor = Color.Transparent;
+            houseCard3.FlatStyle = FlatStyle.Flat;
+            houseCard3.Location = new Point(305, 51);
+            houseCard3.Name = "houseCard3";
+            houseCard3.Size = new Size(145, 147);
+            houseCard3.TabIndex = 20;
+            houseCard3.UseVisualStyleBackColor = false;
+            // 
+            // houseCard2
+            // 
+            houseCard2.BackColor = Color.Transparent;
+            houseCard2.BackgroundImageLayout = ImageLayout.Zoom;
+            houseCard2.Dock = DockStyle.Fill;
+            houseCard2.FlatAppearance.BorderSize = 0;
+            houseCard2.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            houseCard2.FlatAppearance.MouseOverBackColor = Color.Transparent;
+            houseCard2.FlatStyle = FlatStyle.Flat;
+            houseCard2.Location = new Point(154, 51);
+            houseCard2.Name = "houseCard2";
+            houseCard2.Size = new Size(145, 147);
+            houseCard2.TabIndex = 21;
+            houseCard2.UseVisualStyleBackColor = false;
+            // 
+            // houseCard4
+            // 
+            houseCard4.BackColor = Color.Transparent;
+            houseCard4.BackgroundImageLayout = ImageLayout.Zoom;
+            houseCard4.Dock = DockStyle.Fill;
+            houseCard4.FlatAppearance.BorderSize = 0;
+            houseCard4.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            houseCard4.FlatAppearance.MouseOverBackColor = Color.Transparent;
+            houseCard4.FlatStyle = FlatStyle.Flat;
+            houseCard4.Location = new Point(456, 51);
+            houseCard4.Name = "houseCard4";
+            houseCard4.Size = new Size(147, 147);
+            houseCard4.TabIndex = 22;
+            houseCard4.UseVisualStyleBackColor = false;
+            // 
             // main
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -1748,12 +2704,10 @@
             DrawerShowIconsWhenHidden = true;
             DrawerTabControl = tabControl;
             ForeColor = SystemColors.ControlText;
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "main";
             Text = "The Oasis";
             tabControl.ResumeLayout(false);
-            Home.ResumeLayout(false);
-            homeTableLayout.ResumeLayout(false);
-            homeTableLayout.PerformLayout();
             Blackjack.ResumeLayout(false);
             blackjackTableLayout.ResumeLayout(false);
             player2Panel.ResumeLayout(false);
@@ -1763,7 +2717,6 @@
             player2ButtonTable.ResumeLayout(false);
             player2ButtonTable.PerformLayout();
             dealersPanel.ResumeLayout(false);
-            dealersPanel.PerformLayout();
             tableLayoutPanel8.ResumeLayout(false);
             tableLayoutPanel8.PerformLayout();
             player1Panel.ResumeLayout(false);
@@ -1787,6 +2740,17 @@
             actionPanel.ResumeLayout(false);
             tableLayoutPanel1.ResumeLayout(false);
             tableLayoutPanel1.PerformLayout();
+            Roulette.ResumeLayout(false);
+            roulleteTableLayout.ResumeLayout(false);
+            boardTableLayout.ResumeLayout(false);
+            tableLayoutPanel2.ResumeLayout(false);
+            tableLayoutPanel2.PerformLayout();
+            lablesTableLayout.ResumeLayout(false);
+            lablesTableLayout.PerformLayout();
+            buttonsTableLayout.ResumeLayout(false);
+            buttonsTableLayout.PerformLayout();
+            wheelTableLayout.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)wheelPictureBox).EndInit();
             tableLayoutPanel4.ResumeLayout(false);
             tableLayoutPanel4.PerformLayout();
             tableLayoutPanel5.ResumeLayout(false);
@@ -1800,14 +2764,9 @@
 
         private ImageList MenuImages;
         private MaterialSkin.Controls.MaterialTabControl tabControl;
-        private TabPage Home;
-        private TabPage Roullete;
+        private TabPage Roulette;
         private TabPage Blackjack;
         private TabPage Machines;
-        private TabPage Shop;
-        private TabPage Settings;
-        private TableLayoutPanel homeTableLayout;
-        private Label title;
         private TabPage home;
         private TabPage roullete;
         private TabPage blackjack;
@@ -1825,10 +2784,6 @@
         private MaterialSkin.Controls.MaterialButton player2JoinButton;
         private MaterialSkin.Controls.MaterialButton player4JoinButton;
         private MaterialSkin.Controls.MaterialButton player3JoinButton;
-        private Label player1Label;
-        private Label player2Label;
-        private Label player3Label;
-        private Label player4Label;
         private TableLayoutPanel player1ButtonTable;
         private MaterialSkin.Controls.MaterialButton player1StandButton;
         private MaterialSkin.Controls.MaterialButton player1HitButton;
@@ -1856,34 +2811,13 @@
         private MaterialSkin.Controls.MaterialButton player3LeaveButton;
         private MaterialSkin.Controls.MaterialButton player4LeaveButton;
         private TableLayoutPanel player1Cards;
-        private MaterialSkin.Controls.MaterialButton player1Card4;
-        private MaterialSkin.Controls.MaterialButton player1Card3;
-        private MaterialSkin.Controls.MaterialButton player1Card2;
-        private MaterialSkin.Controls.MaterialButton player1Card1;
         private TableLayoutPanel tableLayoutPanel6;
         private MaterialSkin.Controls.MaterialButton materialButton17;
         private MaterialSkin.Controls.MaterialButton materialButton18;
         private TableLayoutPanel player2Cards;
-        private MaterialSkin.Controls.MaterialButton player2Card4;
-        private MaterialSkin.Controls.MaterialButton player2Card3;
-        private MaterialSkin.Controls.MaterialButton player2Card2;
-        private MaterialSkin.Controls.MaterialButton player2Card1;
         private TableLayoutPanel player3Cards;
-        private MaterialSkin.Controls.MaterialButton player3Card4;
-        private MaterialSkin.Controls.MaterialButton player3Card3;
-        private MaterialSkin.Controls.MaterialButton player3Card2;
-        private MaterialSkin.Controls.MaterialButton player3Card1;
         private TableLayoutPanel player4Cards;
-        private MaterialSkin.Controls.MaterialButton player4Card4;
-        private MaterialSkin.Controls.MaterialButton player4Card3;
-        private MaterialSkin.Controls.MaterialButton player4Card2;
-        private MaterialSkin.Controls.MaterialButton player4Card1;
         private TableLayoutPanel tableLayoutPanel8;
-        private MaterialSkin.Controls.MaterialButton houseCard4;
-        private MaterialSkin.Controls.MaterialButton houseCard3;
-        private MaterialSkin.Controls.MaterialButton houseCard2;
-        private MaterialSkin.Controls.MaterialButton houseCard1;
-        private Label houseLabelBig;
         private TableLayoutPanel tableLayoutPanel1;
         private MaterialSkin.Controls.MaterialButton startButton;
         private Label player2MoneyLabelSmall;
@@ -1894,5 +2828,100 @@
         private Label player3BetLabelSmall;
         private Label player4MoneyLabelSmall;
         private Label player4BetLabelSmall;
+        private Label player2Label;
+        private Label player1Label;
+        private Label player3Label;
+        private Label player4Label;
+        private Label player2HandLabel;
+        private Label player1HandLabel;
+        private Label player3HandLabel;
+        private Label player4HandLabel;
+        private Label houseLabelBig;
+        private Label houseHandLabel;
+        private TableLayoutPanel roulleteTableLayout;
+        private PictureBox wheelPictureBox;
+        private TableLayoutPanel boardTableLayout;
+        private Button secondButton;
+        private Button oddButton;
+        private Button blackButton;
+        private Button redButton;
+        private Button evenButton;
+        private Button row1Button;
+        private Button button34;
+        private Button button31;
+        private Button button28;
+        private Button button25;
+        private Button button22;
+        private Button button19;
+        private Button button16;
+        private Button button13;
+        private Button button10;
+        private Button button7;
+        private Button button4;
+        private Button button1;
+        private Button row2Button;
+        private Button button35;
+        private Button button32;
+        private Button button29;
+        private Button button26;
+        private Button button23;
+        private Button button20;
+        private Button button17;
+        private Button button14;
+        private Button button11;
+        private Button button8;
+        private Button button5;
+        private Button button2;
+        private Button row3Button;
+        private Button button36;
+        private Button button33;
+        private Button button30;
+        private Button button27;
+        private Button button24;
+        private Button button21;
+        private Button button18;
+        private Button button15;
+        private Button button12;
+        private Button button9;
+        private Button button6;
+        private Button col3Button;
+        private Button col2Button;
+        private Button col1Button;
+        private Button button0;
+        private Button button3;
+        private Button firstButton;
+        private TableLayoutPanel buttonsTableLayout;
+        private MaterialSkin.Controls.MaterialButton resetButton;
+        private MaterialSkin.Controls.MaterialButton betDownButton;
+        private MaterialSkin.Controls.MaterialButton spinButton;
+        private MaterialSkin.Controls.MaterialButton betUpButton;
+        private TableLayoutPanel tableLayoutPanel2;
+        private Label totalLabel;
+        private Label betLabel;
+        private Label moneyLabel;
+        private TableLayoutPanel wheelTableLayout;
+        private global::System.Windows.Forms.TableLayoutPanel lablesTableLayout;
+        private global::System.Windows.Forms.Label wheelLabel;
+        private global::System.Windows.Forms.Label messageLabel;
+        private global::System.Windows.Forms.Button player1Card1;
+        private Button player2Card3;
+        private Button player2Card1;
+        private Button player2Card2;
+        private Button player2Card4;
+        private Button houseCard1;
+        private Button houseCard2;
+        private Button houseCard3;
+        private Button houseCard4;
+        private Button player1Card2;
+        private Button player1Card3;
+        private Button player1Card4;
+        private Button player3Card3;
+        private Button player3Card1;
+        private Button player3Card2;
+        private Button player3Card4;
+        private Button player4Card1;
+        private Button player4Card2;
+        private Button player4Card3;
+        private Button player4Card4;
     }
 }
